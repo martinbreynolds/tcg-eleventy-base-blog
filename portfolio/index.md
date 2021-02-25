@@ -5,6 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: Portfolio
   order: 2
+image: '/img/pages/image3.jpg'
 ---
 
 ## Just another page
