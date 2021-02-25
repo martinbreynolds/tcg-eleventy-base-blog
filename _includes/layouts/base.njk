@@ -12,16 +12,34 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
+        <header class="bg-danger">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger pt-4 pb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand me-5" href="/">
+      <img src="/img/logo.png" alt="logo image" width="30" height="30" class="d-inline-block align-top">
+      {{ metadata.title }}
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
-    </header>
+          
+    </div>
+                <span class="navbar-text">
+        {% for social in settings.socials %}
+            <a href="{{ social.url }}" class="text-decoration-none px-2 text-white fa fa-{{ social.name }}"></a>
+          {% endfor %}
+      </span>
+  </div>
+</nav>
+</div>      
+</header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
