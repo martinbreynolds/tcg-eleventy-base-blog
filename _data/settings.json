@@ -1,0 +1,19 @@
+{
+    "socials" : [
+        {
+            "name": "facebook",
+            "url": "http://www.facebook.com",
+            "icon": "facebook"
+        },
+        {
+            "name": "twitter",
+            "url": "http://www.twitter.com",
+            "icon": "twitter"
+        },
+        {
+            "name": "instagram",
+            "url": "http://www.instagram.com",
+            "icon": "instagram"
+        }
+    ]
+}
