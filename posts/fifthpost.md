@@ -2,7 +2,8 @@
 title: This is my fifth post.
 description: This is a post on My Blog about Lorem Ipsum.
 date: 2021-02-25
-tags: another-tag
+tags: 
+  - another-tag
 layout: layouts/post.njk
 image: '/img/posts/image1.jpg'
 ---
