@@ -3,12 +3,19 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
+<div class="container-fluid p-3">
+  <h1 class="fw-b text-danger d-flex justify-content-center">{{ title }}</h1>
+</div>
+
 <div class="container">
-<h1>{{ title }}</h1>
+<img src="{{ image }}" class="rounded img-fluid pb-4">
+
 
 {{ content | safe }}
 
-<hr>
+</div>
+<div class="container p-4">
+
 <ul>
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}

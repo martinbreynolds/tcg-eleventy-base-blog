@@ -5,11 +5,17 @@ eleventyNavigation:
   order: 1
 ---
 
+<div class="container-fluid p-3">
+<h1 class="text-danger d-flex justify-content-center">Welcome to my blog...</h1>
+
 {% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<h2 class=" d-flex justify-content-center">Check out my Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
+</div>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<div class="container p-4 m-4 d-flex justify-content-center">
+<a href="{{ '/posts/' | url }}"><button type="button" class="btn btn-danger btn-lg btn-block">Read More Posts in the Archive.</button></a>
+</div>
