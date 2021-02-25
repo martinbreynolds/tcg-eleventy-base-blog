@@ -1,9 +1,9 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Martin Reynolds Blog Site",
+  "url": "https://tcg-mbr-eleventy-base-blog.netlify.app/",
+  "description": "My New Blog Site",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Putting my thoughts down in eleventy",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -14,7 +14,7 @@
   },
   "author": {
     "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "email": "martinandtoni@btinternet.com",
+    "url": "https://martinbreynolds.github.io/Profile/"
   }
 }
