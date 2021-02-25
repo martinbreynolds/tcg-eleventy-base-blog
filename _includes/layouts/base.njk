@@ -46,7 +46,21 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class="container-fluid bg-danger sp sticky-bottom">
+        
+        <div class="row justify-content-md-center">
+        
+          {% for social in settings.socials %}
+          <div class="col-md-4 d-flex justify-content-center p-3" >
+            <i class="h5 text-white fa fa-{{ social.name }} px-2"></i><a href="{{ social.url }}" class="text-decoration-none h5 text-white">{{ social.name }}</a>
+          </div>
+          {% endfor %}
+        
+        </div>
+                
+        
+
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
