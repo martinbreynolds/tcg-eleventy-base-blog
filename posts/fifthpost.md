@@ -4,7 +4,7 @@ description: This is a post on My Blog about Lorem Ipsum.
 date: 2021-02-25
 tags: another-tag
 layout: layouts/post.njk
-image: '/img/image1.jpg'
+image: '/img/posts/image1.jpg'
 ---
 Ac placerat vestibulum lectus mauris. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Nisi porta lorem mollis aliquam ut porttitor leo. Lectus arcu bibendum at varius vel pharetra vel. Libero enim sed faucibus turpis in eu mi bibendum. Habitasse platea dictumst vestibulum rhoncus est. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Ultrices dui sapien eget mi. Id cursus metus aliquam eleifend mi in nulla posuere. Consectetur a erat nam at lectus urna duis convallis. In ante metus dictum at tempor commodo ullamcorper a. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Sed nisi lacus sed viverra tellus in hac habitasse. Faucibus pulvinar elementum integer enim neque volutpat. Massa massa ultricies mi quis. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Quis lectus nulla at volutpat diam. Interdum posuere lorem ipsum dolor sit amet. Eget nunc lobortis mattis aliquam faucibus.
 
