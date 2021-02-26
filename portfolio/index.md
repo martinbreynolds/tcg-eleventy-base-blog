@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: Portfolio
-templateClass: tmpl-post
+templateClass: tmpl-page
 eleventyNavigation:
   key: Portfolio
   order: 2

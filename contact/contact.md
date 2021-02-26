@@ -1,10 +1,11 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: Contact Me
-templateClass: tmpl-post
+templateClass: tmpl-page
 eleventyNavigation:
   key: Contact Me
   order: 4
+image: '/img/pages/image4.jpg'
 ---
 
 <div class="container">

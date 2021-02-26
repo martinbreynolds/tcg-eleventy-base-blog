@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-page
+---
+
+<div class="container">
+  <div class="hero">
+    <div class="container-fluid p-3 hero-text">
+      <h1 class="fw-b text-danger d-flex justify-content-center">{{ title }}</h1>
+    </div>
+
+    <div class="container">
+      <img src="{{ image }}" class="rounded img-fluid pb-4 hero-img">
+    </div>
+  </div>
+
+  {{ content | safe }}
+
+  </div>
