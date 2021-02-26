@@ -276,6 +276,8 @@ a[href].direct-link:focus:visited,
     font-weight: 300;
   }
 
+  /* Button Styling */
+  
   .text-light {
     text-decoration: none !important;
     font-weight: 700 !important;
