@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 
 <div class="container-fluid p-3">
-<h1 class="text-danger d-flex justify-content-center">Welcome to my blog...</h1>
+<h1 class="text-danger d-flex justify-content-center">Welcome to my Eleventy blogging page...</h1>
 
 {% set maxPosts = collections.posts.length | min(3) %}
 <h2 class=" d-flex justify-content-center">Check out my Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
