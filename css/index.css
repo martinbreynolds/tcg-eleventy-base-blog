@@ -224,3 +224,11 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+  /* Card */
+ 
+  .img-size {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
