@@ -232,3 +232,16 @@ a[href].direct-link:focus:visited,
     height: 50vh;
     object-fit: cover;
   }
+
+  .bg-danger {
+    background-color: #01BCD4 !important; 
+  }
+
+  .text-danger {
+    color: #01BCD4 !important; 
+  }
+
+  .btn-danger {
+    background-color: #01BCD4 !important;
+    border-color: #C0C0C0 !important;
+  }
