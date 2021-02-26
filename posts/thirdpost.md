@@ -3,6 +3,7 @@ title: This is my third post.
 description: This is a post on My Blog about win-win survival strategies.
 layout: layouts/post.njk
 date: 2018-08-24
+image: /img/posts/bram-naus-n8qb1zakk88-unsplash.jpg
 tags:
   - second-tag
   - another-tag
