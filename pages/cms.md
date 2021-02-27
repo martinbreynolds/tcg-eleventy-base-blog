@@ -3,7 +3,7 @@ title: CMS
 date: 2021-02-27T20:50:58.526Z
 permalink: pages/{{ title }}/index.html
 eleventyNavigation:
-  order: 0
+  order: 6
   key: CMS
   body: >-
     This page was created from the CMS :-)
