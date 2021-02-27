@@ -16,25 +16,20 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
-    label: "Page"
+    label: "Pages"
     folder: "pages"
-    create: true
-    slug: "pages/{{slug}}"
+    create: true # Change to true to allow editors to create new pages
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Navigation Title", name: "eleventyNavigation", widget: "object", 
-      fields:  
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Link", name: "permalink", widget: "string", default: "(page-title)/index.html" }
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
           - { label: "Hide on navbar", name: "parent", widget: "boolean", default: false }
           - { label: "Title on navbar", name: "key", widget: "string", required: false }
           - { label: "Order on navbar", name: "order", widget: "number", default: 0 }
-      }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
       - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - { label: "Body", name: "body", widget: "markdown" }
-
-      # - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-      #   name: "eleventyNavigation"
-      #   widget: "object"
-      #   fields:
-      #     - { label: "Hide on navbar", name: "parent", widget: "boolean", default: false }
-      #     - { label: "Title on navbar", name: "key", widget: "string", required: false }
-      #     - { label: "Order on navbar", name: "order", widget: "number", default: 0 }
