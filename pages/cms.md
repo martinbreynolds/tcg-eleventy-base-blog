@@ -1,11 +1,10 @@
 ---
 title: CMS
-permalink: cms
-key: cms
-date: 2021-02-27T18:39:33.403Z
+date: 2021-02-27T18:57:56.829Z
+permalink: pages/{title}/index.html
 eleventyNavigation:
-  order: 4
-  parent: false
-  key: CMS
+  key:
+    ? "{ title }"
+  order: 5
 ---
-This is from the CMS
+CMS
