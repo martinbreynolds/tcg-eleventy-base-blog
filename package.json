@@ -31,5 +31,9 @@
     "luxon": "^1.25.0",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.5"
+  },
+  "dependencies": {
+    "netlify": "^6.1.9",
+    "netlify-cli": "^3.10.1"
   }
 }
