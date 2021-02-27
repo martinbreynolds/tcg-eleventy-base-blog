@@ -16,10 +16,11 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
+    identifier_field: title
     label: "Pages"
     folder: "pages"
     create: true # Change to true to allow editors to create new pages
-    slug: "{{ fields.title }}"
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
