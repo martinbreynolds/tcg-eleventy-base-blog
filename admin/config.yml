@@ -19,10 +19,10 @@ collections:
     label: "Page"
     folder: "pages"
     create: true
-    slug: "{{slug}}"
+    slug: "pages/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - { label: "Navigation Title", name: "key", widget: "string" }
+      - { label: "Permalink", name: "eleventyNavigation", widget: "hidden", default: "{{ ["key":"{{title}}"] }}"}
+      - { label: "Navigation Title", name: "key", widget: "hidden", default: "{{ title }}" }
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown" }
