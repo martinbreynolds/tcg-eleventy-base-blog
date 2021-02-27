@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.njk
 title: Portfolio
 templateClass: tmpl-page
 eleventyNavigation:
