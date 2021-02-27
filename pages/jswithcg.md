@@ -4,7 +4,7 @@ title: Javascript with with the Coders Guild
 templateClass: tmpl-page
 eleventyNavigation:
   key: JS with CG
-  order: 2
+  order: 4
 image: '/img/pages/image5.jpg'
 ---
 

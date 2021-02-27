@@ -3,7 +3,7 @@ title: Portfolio
 templateClass: tmpl-page
 eleventyNavigation:
   key: Portfolio
-  order: 2
+  order: 3
 image: '/img/pages/image3.jpg'
 ---
 

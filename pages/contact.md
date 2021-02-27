@@ -4,7 +4,7 @@ title: Contact Me
 templateClass: tmpl-page
 eleventyNavigation:
   key: Contact Me
-  order: 4
+  order: 7
 image: '/img/pages/image4.jpg'
 ---
 
