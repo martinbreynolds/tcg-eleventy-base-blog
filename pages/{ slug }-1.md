@@ -1,10 +1,10 @@
 ---
-title: Content Management System
-date: 2021-02-27T19:56:41.611Z
+title: Content Management System2
+date: 2021-02-27T20:04:17.111Z
 permalink: pages/{{ title }}/index.html
 eleventyNavigation:
-  order: 4
-  key: CMS
+  order: 5
+  key: CMS2
 image: /img/posts/clement-helardot-95yrwf6cnw8-unsplash.jpg
 ---
 This page was created from the CMS :-)
