@@ -19,7 +19,8 @@ collections:
     label: "Page"
     folder: "pages"
     create: true
-    slug: /{{slug}}/index.md
+    path: {{title}}/index
+    slug: /{{title}}/index.md
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
