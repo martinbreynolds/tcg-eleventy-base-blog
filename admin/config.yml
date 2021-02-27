@@ -22,7 +22,19 @@ collections:
     slug: "pages/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Permalink", name: "eleventyNavigation", widget: "hidden", default: "{{ ["key":"{{title}}"] }}"}
-      - { label: "Navigation Title", name: "key", widget: "hidden", default: "{{ title }}" }
+      - { label: "Navigation Title", name: "eleventyNavigation", widget: "object", 
+      fields:  
+          - { label: "Hide on navbar", name: "parent", widget: "boolean", default: false }
+          - { label: "Title on navbar", name: "key", widget: "string", required: false }
+          - { label: "Order on navbar", name: "order", widget: "number", default: 0 }
+      }
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown" }
+
+      # - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+      #   name: "eleventyNavigation"
+      #   widget: "object"
+      #   fields:
+      #     - { label: "Hide on navbar", name: "parent", widget: "boolean", default: false }
+      #     - { label: "Title on navbar", name: "key", widget: "string", required: false }
+      #     - { label: "Order on navbar", name: "order", widget: "number", default: 0 }
