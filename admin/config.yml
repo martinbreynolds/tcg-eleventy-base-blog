@@ -17,10 +17,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Page"
-    folder: "pages"
+    folder: "pages/{{title}}/"
     create: true
-    path: {{title}}/index
-    slug: /{{title}}/index.md
+    slug: ""
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string" }
