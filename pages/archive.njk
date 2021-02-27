@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+permalink: /posts/
+eleventyNavigation:
+  key: Archive
+  order: 2
+---
+<div class="container-fluid p-3">
+<h1 class="text-danger d-flex justify-content-center">Blog Archive</h1>
+{% set maxPosts = collections.posts.length %}
+<h5 class=" d-flex justify-content-center">There are {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %} in my collection.</h2>
+</div>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
