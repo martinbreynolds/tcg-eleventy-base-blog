@@ -1,5 +1,5 @@
 ---
-title: CMS2
+title: Content Management System
 date: 2021-02-27T19:56:41.611Z
 permalink: pages/{{ title }}/index.html
 eleventyNavigation:
