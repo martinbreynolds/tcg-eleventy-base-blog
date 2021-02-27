@@ -15,7 +15,7 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-    - name: "pages"
+  - name: "pages"
     label: "Page"
     folder: "pages"
     create: true
