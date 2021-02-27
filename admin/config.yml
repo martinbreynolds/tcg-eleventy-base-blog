@@ -19,16 +19,15 @@ collections:
     label: "Pages"
     folder: "pages"
     create: true # Change to true to allow editors to create new pages
-    slug: "{{slug}}"
+    slug: "{{ slug }}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Link", name: "permalink", widget: "hidden", default: "pages/{{slug}}/index.html"}
       - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
         name: "eleventyNavigation"
         widget: "object"
         fields:
-          - { label: "Title on navbar", name: "key", widget: "hidden", default: "{{slug}}" }
+          - { label: "Title on navbar", name: "key", widget: "string" }
           - { label: "Order on navbar", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - {label: "Featured Image", name: "image", widget: "image", required: false}
