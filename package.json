@@ -3,8 +3,8 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "eleventy && postcss css/tailwind.css -o _site/css/tailwind.css",
-    "watch": "eleventy --watch && postcss css/tailwind.css -o _site/css/tailwind.css",
+    "build": "eleventy & postcss css/tailwind.css -o _site/css/tailwind.css",
+    "watch": "eleventy --watch & postcss css/tailwind.css -o _site/css/tailwind.css",
     "serve": "eleventy --serve",
     "start": "eleventy --serve & postcss css/tailwind.css --o _site/css/style.css --watch",
     "debug": "DEBUG=* eleventy"
