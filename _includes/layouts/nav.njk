@@ -44,21 +44,13 @@
             class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
             href="#pablo"
           >
+            {% for social in settings.socials %}
             <i
-              class="fab fa-twitter text-lg leading-lg text-white opacity-75"
-            ></i
-            ><span class="ml-2">Tweet</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-            href="#pablo"
-          >
-            <i
-              class="fab fa-pinterest text-lg leading-lg text-white opacity-75"
-            ></i
-            ><span class="ml-2">Pin</span>
+              class="tw-border-pink-50 tw-border-solid tw-border-2 tw-rounded-2xl tw-p-3 fa fa-{{
+                social.name
+              }} fa-lg"
+            ></i>
+            {%- endfor %}
           </a>
         </li>
       </ul>
