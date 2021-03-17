@@ -1,5 +1,5 @@
 <nav
-  class="tw-relative tw-flex tw-flex-wrap tw-tw-items-center tw-justify-between tw-px-2 tw-py-3 tw-navbar-expand-lg tw-bg-pink-900 tw-mb-3"
+  class="tw-bg-cyan-500 tw-relative tw-flex tw-flex-wrap tw-items-center tw-justify-around tw-px-2 tw-py-3 tw-navbar-expand-lg tw-mb-3"
 >
   <div
     class="tw-container tw-px-4 tw-mx-auto tw-flex tw-flex-wrap tw-items-center tw-justify-between"
@@ -8,15 +8,15 @@
       class="tw-w-full tw-relative tw-flex tw-justify-between lg:tw-w-auto tw-px-4 lg:tw-static lg:tw-block lg:tw-justify-start"
     >
       <a
-        class="tw-text-sm tw-font-bold tw-leading-relaxed tw-inline-block tw-mr-4 tw-py-2 tw-whitespace-no-wrap tw-uppercase tw-text-white"
+        class="tw-text-md tw-font-bold tw-justify-items-center tw-align-middle tw-inline-block tw-mr-4 tw-py-2 tw-whitespace-no-wrap tw-uppercase tw-text-white"
         href="#pablo"
       >
         <img
           src="./img/logowhitem.png"
           alt="logo image"
-          height="20px"
+          height="auto"
           width="auto"
-          class="d-inline-block tw-h-24"
+          class="d-inline-block tw-h-16"
         />
       </a>
       <button
@@ -34,10 +34,23 @@
       <ul class="tw-flex tw-flex-col lg:tw-flex-row tw-list-none lg:tw-ml-auto">
         {%- for entry in collections.all | eleventyNavigation %}
         <li
-          class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"
+          class="tw-flex tw-flex-col nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"
         >
           <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+
+          <!-- Adding Child-->
+          <div>
+            {%- if entry.children.length -%}
+            <ul>
+              {%- for child in entry.children %}
+              <a href="{{ child.url | url }}">{{ child.title }}</a>
+              {% endfor -%}
+            </ul>
+            {%- endif -%}
+          </div>
+          <!-- End Add Child -->
         </li>
+
         {%- endfor %}
         <li class="nav-item">
           <a
