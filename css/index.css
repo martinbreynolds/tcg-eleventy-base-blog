@@ -113,25 +113,6 @@ pre {
   text-decoration: none;
 }
 
-/* Nav */
-.nav {
-  padding: 0;
-  list-style: none;
-  float: left;
-  margin-left: 1em;
-}
-.nav-item {
-  display: inline-block;
-  margin-right: 1em;
-}
-.nav-item a[href]:not(:hover) {
-  text-decoration: none;
-}
-.nav-item-active {
-  font-weight: 700;
-  text-decoration: underline;
-}
-
 /* Posts list */
 .postlist {
   list-style: none;
@@ -205,12 +186,6 @@ a[href].direct-link,
 a[href].direct-link:visited {
   color: transparent;
 }
-a[href].direct-link:focus,
-a[href].direct-link:focus:visited,
-:hover > a[href].direct-link,
-:hover > a[href].direct-link:visited {
-  color: #aaa;
-}
 
 /* Card */
 
@@ -262,15 +237,6 @@ h5 {
   font-weight: 300;
 }
 
-a {
-  font-size: 1rem;
-  color: white !important;
-}
-
-i {
-  color: white !important;
-}
-
 /* Button Styling */
 
 .text-light {
@@ -319,4 +285,48 @@ i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Nav Styling */
+
+.nav-item:hover .nav-child {
+  display: block;
+}
+
+.nav-child .nav-item {
+  width: 100%;
+  position: absolute;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.nav-child .nav-item li {
+  color: #01bcd4 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-child .nav-item {
+    width: 100%;
+    position: relative;
+  }
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item li {
+  margin: 3px;
+}
+
+.nav-item li a {
+  color: #174f63;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-item-active li a {
+  color: grey !important;
+  text-decoration: none;
 }
