@@ -19,12 +19,9 @@
   </head>
   <body>
 
-<header class=" tw-pb-4 tw-h-auto" >
-  
-{% include './components/nav.njk' %}
 
+{% include './components/header.njk' %}
 
-</header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
@@ -35,9 +32,6 @@
   
 {% include './components/footer.njk' %}
 
-
-
-        
 
     <!-- Current page: {{ page.url | url }} -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
