@@ -2,7 +2,9 @@
   {# Social Icons #}
   <div class="tw-py-2 tw-mx-auto tw-text-center tw-content-center">
     {% for social in settings.socials %}
-    <i class=" tw-p-3 fa fa-{{ social.icon }} fa-2x"></i>
+    <a href="{{ social.url }}">
+      <i class=" tw-p-3 fa fa-{{ social.icon }} fa-2x"></i
+    ></a>
     {%- endfor %}
   </div>
 
@@ -14,21 +16,6 @@
   />
 
   {# Links in a Row #}
-
-  <!-- <div class="container">
-    <div
-      class="tw-flex tw-flex-wrap tw-flex-col md:tw-flex-row tw-justify-around tw-uppercase"
-    >
-      {%- for entry in collections.all | eleventyNavigation %}
-
-      <div class="tw-w-full tw-px-16 sm:tw-flex-1 tw-text-sm">
-        <span class="tw-text-center tw-block tw-my-4">
-          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-        </span>
-      </div>
-      {%- endfor %}
-    </div>
-  </div> -->
 
   <p class="tw-text-white tw-text-center tw-py-3">
     <span>© {{ page.date.getFullYear() }} - </span>
