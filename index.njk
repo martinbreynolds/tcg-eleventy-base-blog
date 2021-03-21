@@ -78,20 +78,5 @@ eleventyNavigation:
   </div>
 </div>
 
-<div
-  class="tw-text-2xl tw-p-6 tw-font-semibold tw-text-center tw-text-cyan-600"
->
-  Check out my Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }}
-  Posts{% endif %}.
-</div>
-
 {% set postslist = collections.posts | head(-3) %} {% set postslistCounter =
 collections.posts | length %} {% include "postslist.njk" %}
-
-<div class="tw-container tw-mx-auto">
-  <a href="{{ '/posts/' | url }}"
-    ><button type="button" class="btn btn-danger btn-lg btn-block">
-      Read More Posts in the Archive.
-    </button></a
-  >
-</div>
