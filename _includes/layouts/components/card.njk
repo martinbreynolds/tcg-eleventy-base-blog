@@ -1,54 +1,51 @@
-<div class="col-md-4 mb-4">
-  <div class="card h-100">
-    {% if post.data.image %}
-    <a href="{{ post.url | url }}">
-      <img
-        src="{{ post.data.image }}"
-        class="card-img-top img-fluid img-size"
-        alt="{{ post.data.title }}"
-      />
-    </a>
-    {% else %}
+<div class="tw-w-full">
+  <!-- Image Area -->
+  {% if post.data.image %}
+  <a class="" href="{{ post.url | url }}">
     <img
-      src="../img/logo.png"
-      class="card-img-top img-fluid img-size"
+      src="{{ post.data.image }}"
+      class="tw-w-full tw-py-2 lg:tw-h-1/2 tw-object-cover"
       alt="{{ post.data.title }}"
     />
-    {% endif %}
+  </a>
+  {% else %}
+  <img
+    src="../img/logoblueonlym.png"
+    class="tw-w-full tw-py-2 lg:tw-h-1/2 tw-object-cover"
+    alt="{{ post.data.title }}"
+  />
+  {% endif %}
 
-    <div class="card-body">
-      <p class="card-text">
-        <time
-          class="postlist-date"
-          datetime="{{ post.date | htmlDateString }}"
-          >{{ post.date | readableDate }}</time
-        >
-      </p>
+  <div class="tw-bg-cyan-900 tw-p-3">
+    <p class="tw-text-gray-50 tw-text-sm">
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{
+        post.date | readableDate
+      }}</time>
+    </p>
 
-      <h3 class="card-title">
-        {% if post.data.title %}{{ post.data.title }}{% else %}{% endif %}
-      </h3>
+    <h3 class="tw-text-gray-50 tw-text-lg tw-py-3 tw-font-bold">
+      {% if post.data.title %}{{ post.data.title }}{% else %}{% endif %}
+    </h3>
 
-      <p class="card-text">{{ post.data.description }}</p>
+    <p class="card-text">{{ post.data.description }}</p>
 
-      <button
-        href="{{ post.url | url }}"
-        type="button"
-        class="btn btn-secondary"
+    <button
+      href="{{ post.url | url }}"
+      type="button"
+      class="tw-font-bold tw-bg-cyan-200 tw-py-1 px-2 tw-rounded-md"
+    >
+      <a class="tw-text-cyan-900" href="{{ post.url | url }}">Read More</a>
+    </button>
+
+    <p class="tw-mt-3">
+      {% for tag in post.data.tags %} {%- if collections.tagList.indexOf(tag) !=
+      -1 -%} {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a
+        href="{{ tagUrl | url }}"
+        class="tw-font-light tw-text-sm tw-italic tw-bg-cyan-50 tw-py-1 px-2 tw-rounded-md"
+        >{{ tag }}</a
       >
-        <a class="text-light" href="{{ post.url | url }}">Read More</a>
-      </button>
-
-      <p>
-        {% for tag in post.data.tags %} {%- if collections.tagList.indexOf(tag)
-        != -1 -%} {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a
-          href="{{ tagUrl | url }}"
-          class="badge rounded-pill bg-danger post-tag mt-3 mb-3 p-1"
-          >{{ tag }}</a
-        >
-        {%- endif -%} {% endfor %}
-      </p>
-    </div>
+      {%- endif -%} {% endfor %}
+    </p>
   </div>
 </div>
