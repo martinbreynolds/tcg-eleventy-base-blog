@@ -1,17 +1,17 @@
-<div class="tw-w-full">
+<div class="tw-h-auto">
   <!-- Image Area -->
   {% if post.data.image %}
   <a class="" href="{{ post.url | url }}">
     <img
       src="{{ post.data.image }}"
-      class="tw-w-full tw-py-2 lg:tw-h-1/2 tw-object-cover"
+      class="tw-w-full tw-py-2 tw-h-80 tw-object-cover"
       alt="{{ post.data.title }}"
     />
   </a>
   {% else %}
   <img
     src="../img/logoblueonlym.png"
-    class="tw-w-full tw-py-2 lg:tw-h-1/2 tw-object-cover"
+    class="tw-w-full tw-py-2 tw-h-80 tw-object-cover"
     alt="{{ post.data.title }}"
   />
   {% endif %}
