@@ -5,7 +5,7 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="tw-w-full tw-grid tw-grid-cols-12">
+<div class="tw-w-full tw-grid lg:tw-grid-cols-12 tw-grid-cols-1">
   <!-- Left Column-->
   <div class="tw-grid tw-h-full tw-bg-cyan-900 tw-p-3 tw-col-span-4 tw-my-auto">
     <div
@@ -39,7 +39,7 @@ eleventyNavigation:
       }
     </style>
     <svg
-      class="trapezoidal-vertical tw-absolute tw-left-0 tw-col-auto"
+      class="trapezoidal-vertical tw-absolute tw-invisible md:tw-visible tw-left-0 tw-col-auto"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 100"
       preserveAspectRatio="none"
@@ -60,23 +60,35 @@ eleventyNavigation:
         <a class="tw-w-1/2" href="{{ '/posts/' | url }}"
           ><button
             type="button"
-            class="tw-p-3 tw-bg-cyan-200 tw-text-gray-900 tw-font-bold tw-rounded-md tw-mx-auto"
+            class="tw-p-3 tw-bg-cyan-200 tw-text-gray-900 tw-font-bold tw-rounded-md tw-mx-auto md:tw-text-lg tw-text-xs"
           >
-            Check Out My Portfolio
+            <i class="fas fa-eye"></i> My Portfolio
           </button></a
         >
         <a class="tw-w-1/2" href="{{ '/posts/' | url }}"
           ><button
             type="button"
-            class="tw-p-3 tw-bg-cyan-200 tw-text-gray-900 tw-font-bold tw-rounded-md tw-mx-auto"
+            class="tw-p-3 tw-bg-cyan-200 tw-text-gray-900 tw-font-bold tw-rounded-md tw-mx-auto md:tw-text-lg tw-text-xs"
           >
-            Download my CV
+            <i class="fas fa-arrow-down"></i> Download my CV
           </button></a
         >
       </div>
     </div>
   </div>
 </div>
+
+<div
+  class="tw-flex tw-mt-3 tw-text-2xl tw-w-auto tw-mx-auto tw-font-semibold tw-text-center tw-text-cyan-300 tw-uppercase tw-justify-center"
+>
+  <p
+    class="tw-p-3 tw-px-6 tw-rounded-t-3xl tw-mx-3 tw-bg-gradient-to-b tw-from-cyan-900 tw-via-cyan-700 tw-to-cyan-900"
+  >
+    Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts {% endif %}
+    <i class="far fa-newspaper"></i>
+  </p>
+</div>
+<div class="tw-h-6 tw-w-full tw-bg-cyan-900"></div>
 
 {% set postslist = collections.posts | head(-3) %} {% set postslistCounter =
 collections.posts | length %} {% include "postslist.njk" %}
