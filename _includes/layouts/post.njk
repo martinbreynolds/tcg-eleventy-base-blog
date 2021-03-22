@@ -7,10 +7,21 @@ templateClass: tmpl-post
   <h1 class="tw-text-2xl tw-text-cyan-900 tw-font-bold tw-text-center tw-p-3">
     {{ title }}
   </h1>
+  {% if image %}
+
   <img
     src="{{ image }}"
     class="tw-rounded-md tw-h-24 md:tw-h-96 tw-w-full tw-object-cover"
+    alt="{{ title }}"
   />
+
+  {% else %}
+  <img
+    src="/../img/logoblueonlym.png"
+    class="tw-rounded-md tw-h-24 md:tw-h-96 tw-w-full tw-object-cover"
+    alt="{{ title }}"
+  />
+  {% endif %}
 </div>
 
 <div class="tw-p-6">
