@@ -7,11 +7,11 @@
     class="tw-container tw-px-3 tw-mx-auto tw-flex tw-flex-wrap tw-items-center"
   >
     <div
-      class="tw-w-full tw-relative tw-flex lg:tw-w-auto tw-px-4 lg:tw-static lg:tw-block lg:tw-justify-start"
+      class="tw-w-full tw-relative tw-flex lg:tw-w-auto tw-px-4 lg:tw-static lg:tw-block lg:tw-justify-start tw-justify-end"
     >
       <!-- Add Toggle button to display when screen smaller than lg-->
       <button
-        class="tw-text-white tw-cursor-pointer tw-text-xl tw-leading-none tw-px-3 tw-py-1 tw-border tw-border-solid tw-border-transparent tw-rounded tw-bg-transparent tw-block lg:tw-hidden tw-outline-none focus:tw-outline-none"
+        class="tw-text-white tw-cursor-pointer tw-text-xl tw-leading-none tw-px-3 tw-py-1 tw-text-center tw-rounded tw-bg-transparent tw-block lg:tw-hidden tw-outline-none focus:tw-outline-none"
         type="button"
         onclick="toggleNavbar('collapse-navbar')"
       >
@@ -42,7 +42,7 @@
     {%- endmacro %}
 
     <div
-      class="lg:tw-flex tw-flex-grow tw-text-center tw-hidden tw-h-auto"
+      class="lg:tw-flex tw-flex-grow tw-text-justify lg:tw-text-center tw-hidden tw-h-auto"
       id="collapse-navbar"
     >
       <ul
