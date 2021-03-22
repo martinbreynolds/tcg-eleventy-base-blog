@@ -27,7 +27,9 @@
       {% if post.data.title %}{{ post.data.title }}{% else %}{% endif %}
     </h3>
 
-    <p class="card-text">{{ post.data.description }}</p>
+    <p class="py-3 tw-text-gray-50 text-sm tw-ml-2">
+      {% if post.data.description %}{{ post.data.description }}{% endif %}
+    </p>
 
     <button
       href="{{ post.url | url }}"
