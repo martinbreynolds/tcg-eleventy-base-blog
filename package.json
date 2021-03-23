@@ -3,10 +3,10 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
+    "build": "eleventy & postcss css/tailwind.css -o _site/css/style.css",
+    "watch": "eleventy --watch & postcss css/tailwind.css -o _site/css/tailwind.css",
     "serve": "eleventy --serve",
-    "start": "eleventy --serve",
+    "start": "eleventy --serve & postcss css/tailwind.css --o _site/css/style.css --watch",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
@@ -28,12 +28,17 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
+    "autoprefixer": "^10.2.5",
     "luxon": "^1.25.0",
     "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5"
+    "markdown-it-anchor": "^5.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
   },
   "dependencies": {
     "netlify": "^6.1.9",
-    "netlify-cli": "^3.10.1"
+    "netlify-cli": "^3.10.1",
+    "watch": "^1.0.2"
   }
 }

@@ -1,19 +1,14 @@
 {
-    "socials" : [
-        {
-            "name": "facebook",
-            "url": "http://www.facebook.com",
-            "icon": "facebook"
-        },
-        {
-            "name": "twitter",
-            "url": "http://www.twitter.com",
-            "icon": "twitter"
-        },
-        {
-            "name": "instagram",
-            "url": "http://www.instagram.com",
-            "icon": "instagram"
-        }
-    ]
+  "socials": [
+    {
+      "name": "Github",
+      "url": "http://www.github.com/martinbreynolds",
+      "icon": "github-square"
+    },
+    {
+      "name": "twitter",
+      "url": "http://www.twitter.com/martinbreynolds",
+      "icon": "twitter"
+    }
+  ]
 }

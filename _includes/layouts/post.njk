@@ -3,24 +3,60 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<div class="container-fluid p-3">
-  <h1 class="fw-b text-danger d-flex justify-content-center">{{ title }}</h1>
+<div class="tw-p-3 tw-mb-6">
+  <h1
+    class="tw-text-2xl tw-text-cyan-50 tw-font-bold tw-text-center tw-p-3 tw-border-0 tw-rounded-t-2xl tw-bg-cyan-900 tw-mb-4 tw-uppercase"
+  >
+    {{ title }}
+  </h1>
+  {% if image %}
+
+  <img
+    src="{{ image }}"
+    class="tw-rounded-md tw-h-24 md:tw-h-96 tw-w-full tw-object-cover"
+    alt="{{ title }}"
+  />
+
+  {% else %}
+  <img
+    src="/../img/logoblueonlym.png"
+    class="tw-rounded-md tw-h-24 md:tw-h-96 tw-w-full tw-object-cover"
+    alt="{{ title }}"
+  />
+  {% endif %}
 </div>
 
-<div class="container">
-<img src="{{ image }}" class="rounded img-fluid pb-4">
-
-
-{{ content | safe }}
-
+<div class="tw-p-6" id="postStyle">
+  {{ content | safe }}
 </div>
-<div class="container p-4">
 
-<ul>
-  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
+<div class="">
+  <ul
+    class="tw-flex tw-flex-nowrap tw-flex-row tw-relative tw-justify-between tw-mx-auto tw-p-6"
+  >
+    {%- set nextPost = collections.posts | getNextCollectionItem(page) %} {%- if
+    nextPost %}
+    <li class="tw-p-3">
+      <i class="fas fa-long-arrow-alt-left"></i>
+      <p class="tw-text-lg tw-font-semibold tw-text-cyan-900">Next:</p>
 
+      <a
+        class="tw-text-lg tw-font-medium tw-text-cyan-900"
+        href="{{ nextPost.url | url }}"
+        >{{ nextPost.data.title }}</a
+      >
+    </li>
+    {% endif %} {%- set previousPost = collections.posts |
+    getPreviousCollectionItem(page) %} {%- if previousPost %}
+    <li class="tw-p-3 tw-text-right">
+      <i class="fas fa-long-arrow-alt-right"></i>
+      <p class="tw-text-lg tw-font-semibold tw-text-cyan-900">Previous:</p>
+      <a
+        class="tw-text-lg tw-font-medium tw-text-cyan-900"
+        href="{{ previousPost.url | url }}"
+        >{{ previousPost.data.title }}</a
+      >
+    </li>
+    {% endif %}
+  </ul>
 </div>

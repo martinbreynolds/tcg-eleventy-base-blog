@@ -1,0 +1,66 @@
+<!-- Nav Start-->
+
+<nav
+  class="tw-relative tw-flex tw-flex-wrap tw-items-center tw-justify-around navbar-expand-lg"
+>
+  <div
+    class="tw-container tw-px-3 tw-mx-auto tw-flex tw-flex-wrap tw-items-center"
+  >
+    <div
+      class="tw-w-full tw-relative tw-flex lg:tw-w-auto tw-px-4 lg:tw-static lg:tw-block lg:tw-justify-start tw-justify-center"
+    >
+      <!-- Add Toggle button to display when screen smaller than lg-->
+      <button
+        class="tw-text-white tw-cursor-pointer tw-text-xl tw-leading-none tw-px-3 tw-py-1 tw-text-center tw-rounded tw-bg-transparent tw-block lg:tw-hidden tw-outline-none focus:tw-outline-none"
+        type="button"
+        onclick="toggleNavbar('collapse-navbar')"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    {% set navPages = collections.all | eleventyNavigation %} {% macro
+    renderNavListItem(entry) -%}
+    <div
+      class="lg:tw-w-1/6 tw-flex tw-flex-col lg:tw-flex-row tw-align-bottom nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"
+    >
+      <li class="">
+        <!-- Parent Elements-->
+        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+
+        <!-- Child Elements -->
+        {%- if entry.children.length -%}
+
+        <ul class="nav-child tw-hidden tw-w-full">
+          {%- for child in entry.children %}{{
+            renderNavListItem(child)
+          }}{% endfor -%}
+        </ul>
+        {%- endif -%}
+      </li>
+    </div>
+    {%- endmacro %}
+
+    <div
+      class="lg:tw-flex tw-flex-grow tw-text-center tw-hidden tw-h-auto"
+      id="collapse-navbar"
+    >
+      <ul
+        class="navandsocailsholder tw-flex tw-flex-col lg:tw-flex-row tw-list-none lg:tw-ml-auto tw-justify-between tw-w-full"
+      >
+        {%- for entry in navPages %}
+        {{
+          renderNavListItem(entry)
+        }}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("tw-hidden");
+    document.getElementById(collapseID).classList.toggle("tw-flex");
+  }
+</script>

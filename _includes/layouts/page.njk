@@ -3,17 +3,19 @@ layout: layouts/base.njk
 templateClass: tmpl-page
 ---
 
-<div class="container">
-  <div class="hero">
-    <div class="container-fluid p-3 hero-text">
-      <h1 class="fw-b text-danger d-flex justify-content-center">{{ title }}</h1>
-    </div>
+<div class="tw-container tw-p-6 tw-mx-auto">
+  
+      <h1 class="tw-text-2xl tw-text-cyan-50 tw-font-bold tw-text-center tw-p-3 tw-border-0 tw-rounded-t-2xl tw-bg-cyan-900 tw-mb-4 tw-uppercase">
+        {{ title }}
+      </h1>
+   
 
     <div class="container">
-      <img src="{{ image }}" class="rounded img-fluid pb-4 hero-img">
+      <img src="{{ image }}" class="tw-rounded-md tw-h-24 md:tw-h-96 tw-w-full tw-object-cover" />
     </div>
   </div>
 
+ <div class="tw-p-12" id="pageStyle">
   {{ content | safe }}
-
-  </div>
+</div>
+</div>

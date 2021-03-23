@@ -1,0 +1,24 @@
+<footer class="tw-bg-cyan-900 tw-text-gray-50 tw-h-auto">
+  {# Social Icons #}
+  <div class="tw-py-2 tw-mx-auto tw-text-center tw-content-center">
+    {% for social in settings.socials %}
+    <a href="{{ social.url }}">
+      <i class=" tw-p-3 fa fa-{{ social.icon }} fa-2x"></i
+    ></a>
+    {%- endfor %}
+  </div>
+
+  <img
+    src="/../img/logowhitem.png"
+    alt="logo image"
+    width="100"
+    class="tw-text-center tw-align-middle tw-mx-auto"
+  />
+
+  {# Links in a Row #}
+
+  <p class="tw-text-white tw-text-center tw-py-3">
+    <span>© {{ page.date.getFullYear() }} - </span>
+    <span>martinbreynolds.dev</span>
+  </p>
+</footer>
