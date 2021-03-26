@@ -166,27 +166,33 @@ image: "/img/pages/image5.jpg"
     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/create-a-jamstack-site-in-eleventy"> https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/create-a-jamstack-site-in-eleventy</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Create a Jamstack site in 11ty (Lesson 5 - Static Site Generators)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
-        <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
-            </ol>
+        <p class=" tw-font-semibold">Create a Jamstack site in 11ty</p>
+        <ol class="tw-p-3 tw-ml-3">  
+              <li type="1">Deploy a JAMstack, 11ty, netlify solution</li>
+              <li type="1">Install your site locally and run</li>
+              <li type="1">Complete tasks 1 and 3 from the yellow box on the homepage</li>
+              <li type="1">Add a new blog post - check the Front Matter at the top of the .md file</li>
+              <br/>
+              <p class=" tw-font-semibold">Additional</p>
+              <li type="1">Add some new pages to your site with links in the navigation</li>
+              <li type="1">Commit your changes to git</li>
+              <li type="1">Push your changes to your master branch to deploy your site to netlify</li>
         </ol>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+        <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/create-a-jamstack-site-in-eleventy" target="_blank">See the code on my Github Repo</a>
       </div>
       <div class="accordion-code-in-practice tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <p>This site you are on is my final 11ty Blog Site</p>
       </div>
     </div>
   </div>
