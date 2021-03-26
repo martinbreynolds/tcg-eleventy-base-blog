@@ -99,27 +99,22 @@ image: "/img/pages/image5.jpg"
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/Profile"> https://github.com/martinbreynolds/Profile</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Make a Github pages profile (Lesson 2 - Source Control)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
-        <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
-            </ol>
-        </ol>
+        <p class=" tw-font-semibold">Create a markdown profile using github pages.</p>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+        <a href="https://github.com/martinbreynolds/Profile" target="_blank">See the code on my Github Repo</a>
       </div>
       <div class="accordion-code-in-practice tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <p>The code in action can be found on my <a href="https://martinbreynolds.github.io/Profile/">Github Page</a>.</p>
       </div>
     </div>
   </div>
