@@ -128,29 +128,33 @@ image: "/img/pages/image5.jpg"
     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/framework-example"> https://github.com/martinbreynolds/framework-example</a>
       </div>
       <div class="accordion-title tw-p-3">
-        <h4 class="tw-py-3">Create a HTML page using bootstrap (Lesson 4 - Frameworks)</h4>
+        <h4 class="tw-py-3">Create a HTML page using bootstrap to advertise your favourite band.</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
-        <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
-            </ol>
-        </ol>
+        <p class=" tw-font-semibold">Create a HTML page using bootstrap to advertise your favourite band.</p>
+          <ul>
+            <li class=" tw-list-disc tw-ml-6">The page should include a header, hero, main content, sidebar and footer.</li>
+            <li class=" tw-list-disc tw-ml-6">The header should contain the band logo.</li>
+            <li class=" tw-list-disc tw-ml-6">The hero will contain a carousel with at least 3 images of the band.</li>
+            <li class=" tw-list-disc tw-ml-6">The main content will contain some information about the band and an embedded youtube video.</li>
+            <li class=" tw-list-disc tw-ml-6">The sidebar will contain (fake) information about upcoming tour dates.</li>
+            <li class=" tw-list-disc tw-ml-6">The footer will contain a copyright symbol and this year.</li>
+          </ul>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+        <a href="https://github.com/martinbreynolds/framework-example" target="_blank">See the code on my Github Repo</a>
       </div>
       <div class="accordion-code-in-practice tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <p>The code in action can be found on my <a href="https://martinbreynolds.github.io/framework-example/">Github Page</a>.</p>
       </div>
     </div>
+
   </div>
 
   <div class="accordion-item">
