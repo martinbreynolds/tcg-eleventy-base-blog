@@ -1,50 +1,781 @@
 ---
-title: Portfolio
+layout: layouts/page.njk
+title: Learning with The Coders Guild
 templateClass: tmpl-page
 eleventyNavigation:
   key: Portfolio
-  order: 3
-image: '/img/pages/image3.jpg'
+  order: 4
+image: "/img/pages/image5.jpg"
 ---
 
-## Just another page
+<div class="tw-container tw-p-6">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Ac tortor vitae purus faucibus ornare suspendisse sed. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Non nisi est sit amet facilisis. Est ullamcorper eget nulla facilisi etiam dignissim diam quis. Vitae turpis massa sed elementum tempus egestas sed. Augue interdum velit euismod in pellentesque massa. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Adipiscing diam donec adipiscing tristique risus nec feugiat in.
+<h2>Mandatory Challenges</h2>
 
-Vestibulum sed arcu non odio euismod lacinia. Cursus in hac habitasse platea dictumst quisque sagittis. Nisl condimentum id venenatis a. Quisque non tellus orci ac auctor augue. Dolor sed viverra ipsum nunc. Ornare lectus sit amet est placerat in egestas. Orci a scelerisque purus semper eget. Pellentesque dignissim enim sit amet venenatis urna. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Vitae semper quis lectus nulla at. Suscipit tellus mauris a diam maecenas sed. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Vitae congue mauris rhoncus aenean vel elit.
+<p>On this page I will document my mandatory challenges with The Coders Guild</p>
 
-Molestie a iaculis at erat pellentesque adipiscing commodo elit. Vel facilisis volutpat est velit egestas dui id ornare. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Elit sed vulputate mi sit amet. Tristique sollicitudin nibh sit amet commodo nulla. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Ipsum dolor sit amet consectetur adipiscing elit ut. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae. Pellentesque habitant morbi tristique senectus. Rhoncus dolor purus non enim praesent elementum facilisis leo. Consequat semper viverra nam libero. Laoreet non curabitur gravida arcu ac tortor dignissim. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Quisque sagittis purus sit amet.
+<h3 id="#top">Menu</h3>
+<menu class="tw-text-xl tw-list-none tw-font-bold tw-p-0">
+ 
+<li class="tw-underline"><a href="#">HTML Table challenge (Lesson 3 - Semantic HTML)</a></li>
+<li><a>Git.It Electron Tutorial (Lesson 2 - Source Control)</a></li>
+<li><a>Make a Github pages profile (Lesson 2 - Source Control)</a></li>
+<li><a>Create a HTML page using bootstrap (Lesson 4 - Frameworks)</a></li>
+<li><a>Create a Jamstack site in 11ty (Lesson 5 - Static Site Generators)</a></li>
+<li><a>Add bootstrap to 11ty site with Git (Lesson 6 - Git Workflows)</a></li>
+<li><a>Update you site making detailed commits (Lesson 6 - Git Workflow)</a></li>
+<li><a>Add a form to your 11ty site (Lesson 7 - Form Processing)</a></li>
+<li><a>Add CMS to you 11ty site (Lesson 8 - Content Management)</a></li>
+<li><a>Add further data and page types to CMS (Lesson 8 - Content management)</a></li>
+<li><a>Create a tip calculator in javascript (Lesson 9 - Programming Concepts)</a></li>
+<li><a>Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</a></li>
+<li><a>Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</a></li>
+<li><a>Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow)</a></li>
+<li><a>"Shall I wear a coat?" function (Lesson 10 - Functions and Control Flow)</a></li>
+<li><a>Percentage Calculator (Lesson 11 - Functions Practical)</a></li>
+<li><a>Switch Statements (Lesson 11 - Functions Practical)</a></li>
+<li><a>Build a calculation function (Lesson 11 - Functions Practical)</a></li>
 
-At in tellus integer feugiat scelerisque varius. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Tellus molestie nunc non blandit massa enim nec dui nunc. At risus viverra adipiscing at in tellus integer. Pharetra diam sit amet nisl suscipit adipiscing. Ut diam quam nulla porttitor massa id neque aliquam. Amet nisl suscipit adipiscing bibendum est. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue.
+</menu>
 
-Interdum velit euismod in pellentesque massa placerat. Diam volutpat commodo sed egestas egestas fringilla phasellus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc. Non blandit massa enim nec dui nunc. Ut morbi tincidunt augue interdum velit euismod in pellentesque. Morbi tristique senectus et netus et. Sodales ut eu sem integer vitae justo eget magna fermentum. Consectetur purus ut faucibus pulvinar. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Habitasse platea dictumst quisque sagittis purus sit. In aliquam sem fringilla ut morbi tincidunt augue. Id aliquet risus feugiat in ante metus dictum at. Commodo viverra maecenas accumsan lacus. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Quis risus sed vulputate odio. Mollis nunc sed id semper risus in. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Auctor urna nunc id cursus metus aliquam eleifend.
+<h3>Javascript Challenges - Programming Concepts</h3>
 
-Ornare arcu odio ut sem nulla pharetra. Ornare suspendisse sed nisi lacus sed viverra. Nunc eget lorem dolor sed viverra ipsum nunc. Venenatis a condimentum vitae sapien pellentesque. Diam sollicitudin tempor id eu nisl. Lacus suspendisse faucibus interdum posuere. Massa vitae tortor condimentum lacinia quis. Lacus vestibulum sed arcu non. Eget arcu dictum varius duis at consectetur lorem donec massa. Donec ac odio tempor orci.
+<h4><a>HTML Table challenge (Lesson 3 - Semantic HTML)</a></h4>
+<a href="https://github.com/martinbreynolds/semantic-html-challenge"><i class="fab fa-github"></i> Find my repository here.</a>
 
-Varius duis at consectetur lorem donec massa sapien faucibus et. Nisl suscipit adipiscing bibendum est ultricies integer quis. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Enim lobortis scelerisque fermentum dui. Enim lobortis scelerisque fermentum dui. Non sodales neque sodales ut etiam sit. Ut etiam sit amet nisl purus. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Lectus mauris ultrices eros in cursus turpis. Condimentum mattis pellentesque id nibh tortor id aliquet. Proin fermentum leo vel orci porta non pulvinar. Praesent tristique magna sit amet purus gravida. Duis convallis convallis tellus id interdum.
+<h3>Tip Calculator</h3>
 
-Eget dolor morbi non arcu risus quis varius quam. Pellentesque habitant morbi tristique senectus et netus et malesuada. Iaculis eu non diam phasellus vestibulum lorem sed risus. Amet nisl suscipit adipiscing bibendum est ultricies. Egestas sed sed risus pretium quam vulputate. Egestas purus viverra accumsan in. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Nunc id cursus metus aliquam. Eget duis at tellus at urna condimentum mattis pellentesque id. Ac felis donec et odio pellentesque diam volutpat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat.
+  <h4>We’ll make a program to calculate a tip:</h4>
+ 
+ <p>Create 2 Variables for Amount and Tip Percentage</p>
+  <p>Calculate the new total</p>
+  <p>Output a sentence to the page - something like: "Your total bill, with tip, is £35.45"</p>
 
-Nullam ac tortor vitae purus faucibus. Ullamcorper malesuada proin libero nunc consequat interdum varius. Odio pellentesque diam volutpat commodo. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae. Sit amet volutpat consequat mauris. At varius vel pharetra vel turpis nunc eget. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Risus pretium quam vulputate dignissim suspendisse in est ante. Nunc lobortis mattis aliquam faucibus purus. Etiam dignissim diam quis enim lobortis scelerisque. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit.
+<h5>BONUS POINTS:</h5>
 
-At lectus urna duis convallis convallis tellus id interdum. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Leo urna molestie at elementum eu facilisis sed odio morbi. Pulvinar sapien et ligula ullamcorper malesuada proin. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Ipsum nunc aliquet bibendum enim facilisis. Feugiat nisl pretium fusce id velit ut tortor pretium viverra. At urna condimentum mattis pellentesque id nibh tortor id. Vulputate eu scelerisque felis imperdiet. Id faucibus nisl tincidunt eget nullam non nisi. Velit scelerisque in dictum non.
+<p>Use `toFixed()` to round the output to 2 decimal places</p>
+<p>Display the tip amount in the output as well</p>
 
-Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Lobortis scelerisque fermentum dui faucibus. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Sed faucibus turpis in eu mi. Mi quis hendrerit dolor magna eget est lorem. Nisi scelerisque eu ultrices vitae auctor eu. Ipsum suspendisse ultrices gravida dictum fusce ut. Adipiscing bibendum est ultricies integer quis. Cursus eget nunc scelerisque viverra mauris in aliquam. Pretium lectus quam id leo in. Tempor commodo ullamcorper a lacus vestibulum sed. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Sapien pellentesque habitant morbi tristique senectus et. Nisi vitae suscipit tellus mauris a diam. Fermentum iaculis eu non diam phasellus vestibulum lorem.
+<h4>Additional</h4>
 
-Pharetra convallis posuere morbi leo urna molestie at elementum eu. Mi sit amet mauris commodo quis imperdiet. Quam elementum pulvinar etiam non quam. Sed id semper risus in hendrerit gravida rutrum. Elementum nisi quis eleifend quam. Enim nec dui nunc mattis enim. Consequat mauris nunc congue nisi vitae. Ac turpis egestas integer eget aliquet nibh praesent. Sed risus pretium quam vulputate dignissim. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.
+<p>Make a Procedural `Function` in Javascript.</p>
 
-Amet justo donec enim diam vulputate. Ultricies mi eget mauris pharetra. Amet massa vitae tortor condimentum. Tristique risus nec feugiat in fermentum posuere urna. Massa enim nec dui nunc mattis enim ut tellus. Et netus et malesuada fames ac turpis egestas sed. Id interdum velit laoreet id donec. Cras semper auctor neque vitae. Dui sapien eget mi proin sed. Proin sed libero enim sed faucibus turpis in eu. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Vel pretium lectus quam id leo in vitae turpis. Turpis nunc eget lorem dolor sed viverra. Mi in nulla posuere sollicitudin aliquam ultrices. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Consectetur purus ut faucibus pulvinar elementum integer enim neque.
+<h3>The Code</h3>
 
-Sed felis eget velit aliquet sagittis id. Id leo in vitae turpis massa sed elementum. Vel pharetra vel turpis nunc. Quam quisque id diam vel quam elementum pulvinar etiam. Imperdiet nulla malesuada pellentesque elit eget. Quis varius quam quisque id. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Imperdiet sed euismod nisi porta lorem. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Habitant morbi tristique senectus et netus et.
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+function tipCalculator() {
+  var billAmount = parseInt(document.getElementById("billAmount").value);
 
-Bibendum enim facilisis gravida neque. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Vestibulum morbi blandit cursus risus at ultrices mi. Vulputate dignissim suspendisse in est ante in nibh mauris. Turpis in eu mi bibendum neque egestas. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Dignissim diam quis enim lobortis. Sit amet commodo nulla facilisi nullam vehicula ipsum. Sapien eget mi proin sed libero enim sed. Non blandit massa enim nec dui nunc. Ac feugiat sed lectus vestibulum. Tellus elementum sagittis vitae et leo duis ut diam.
+  var tipPercentage = parseInt(
+    document.getElementById("percentAmount").value
+  ).toFixed(2);
 
-Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Vitae elementum curabitur vitae nunc sed velit dignissim sodales. Condimentum lacinia quis vel eros donec ac odio. Aenean pharetra magna ac placerat vestibulum lectus mauris. Sapien et ligula ullamcorper malesuada proin libero. Non enim praesent elementum facilisis. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Gravida dictum fusce ut placerat. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum.
+  var tipPercentCalc = ((billAmount / 100) * tipPercentage).toFixed(2);
 
-Viverra nibh cras pulvinar mattis nunc. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Ut aliquam purus sit amet luctus. Tortor pretium viverra suspendisse potenti nullam ac tortor. Habitant morbi tristique senectus et netus et malesuada fames. Quis eleifend quam adipiscing vitae proin. Ut aliquam purus sit amet luctus venenatis. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Scelerisque varius morbi enim nunc faucibus. Cursus in hac habitasse platea dictumst quisque sagittis purus sit.
+  var totalBill = billAmount + tipPercentCalc;
 
-Blandit aliquam etiam erat velit. Porta lorem mollis aliquam ut porttitor leo. At volutpat diam ut venenatis. Ut ornare lectus sit amet est placerat. At consectetur lorem donec massa sapien faucibus et molestie ac. Et netus et malesuada fames ac turpis egestas maecenas. Rhoncus mattis rhoncus urna neque viverra justo nec. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Quam elementum pulvinar etiam non. At auctor urna nunc id cursus metus aliquam. Risus viverra adipiscing at in tellus integer feugiat scelerisque varius. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer. Faucibus turpis in eu mi bibendum neque egestas congue. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Lorem sed risus ultricies tristique nulla aliquet. Nam aliquam sem et tortor consequat id porta. Rutrum quisque non tellus orci ac auctor augue. Viverra accumsan in nisl nisi scelerisque.
+  return (document.getElementById(
+    "totalBillSentence"
+  ).innerHTML = `Your bill of £${billAmount.toFixed(
+    2
+  )}, with a ${tipPercentage}% tip of £${tipPercentCalc} , is a total bill of £${totalBill}`);
+}
+</code></pre>
 
-Mauris pharetra et ultrices neque ornare aenean euismod. Turpis egestas integer eget aliquet nibh praesent. Vel eros donec ac odio tempor. Nunc eget lorem dolor sed viverra ipsum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Adipiscing commodo elit at imperdiet dui accumsan. Arcu non odio euismod lacinia at. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. At volutpat diam ut venenatis tellus in. Lectus magna fringilla urna porttitor rhoncus. Purus ut faucibus pulvinar elementum. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Elementum nibh tellus molestie nunc non blandit massa. Ac felis donec et odio. Ultricies tristique nulla aliquet enim tortor at auctor urna. Vitae aliquet nec ullamcorper sit amet risus nullam eget felis. Nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum.
+<h3>The Code in Action</h3>
 
-Ac placerat vestibulum lectus mauris. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Nisi porta lorem mollis aliquam ut porttitor leo. Lectus arcu bibendum at varius vel pharetra vel. Libero enim sed faucibus turpis in eu mi bibendum. Habitasse platea dictumst vestibulum rhoncus est. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Ultrices dui sapien eget mi. Id cursus metus aliquam eleifend mi in nulla posuere. Consectetur a erat nam at lectus urna duis convallis. In ante metus dictum at tempor commodo ullamcorper a. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Sed nisi lacus sed viverra tellus in hac habitasse. Faucibus pulvinar elementum integer enim neque volutpat. Massa massa ultricies mi quis. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Quis lectus nulla at volutpat diam. Interdum posuere lorem ipsum dolor sit amet. Eget nunc lobortis mattis aliquam faucibus.
+<label class="tw-font-semibold tw-mb-1" for="billAmount">Please enter the total bill amount.</label>
+<input type="number" id="billAmount"></input>
+<label class="tw-font-semibold tw-mb-1"  for="percentAmount">Please enter the total percentage amount.</label>
+<input type="number" id="percentAmount"></input>
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl" onclick="tipCalculator()">Calculate Tip</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="totalBillSentence">&nbsp;</p>
+</div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h2>Javascript Challenges - Variables and Operators</h2>
+  <h3>Sentence Output</h3>
+      <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+// Write a simple program to combine a first name and a last name inside a function.
+// Then update the function to accept a first and last name as arguments.
+
+// Add a return statement to your 'name' function. Use that function to set the value of a variable.
+
+function displayFullName(fName, lName) {
+  var fName = document.getElementById("fName").value;
+  var lName = document.getElementById("lName").value;
+
+  return (document.getElementById(
+    "fullNameDisplay"
+  ).innerHTML = `${fName} ${lName}`);
+}
+</code></pre>
+
+<h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1" >Please click the button to display a sentence.</label>
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl" type="submit" onclick="createSentence()">Create a Sentence.</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+<p id="sentence">&nbsp;</p>
+</div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h3>Show your Full Name</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+// Write a simple program to combine a first name and a last name inside a function.
+// Then update the function to accept a first and last name as arguments.
+
+function displayFullName(fName, lName) {
+  var fName = document.getElementById("fName").value;
+  var lName = document.getElementById("lName").value;
+
+  return (document.getElementById(
+    "fullNameDisplay"
+  ).innerHTML = `${fName} ${lName}`);
+}
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1"  for="fName">Please enter your first name.</label>
+<input type="text" id="fName" />
+
+<label class="tw-font-semibold tw-mb-1"  for="lName">Please enter your last name.</label>
+<input type="text" id="lName" />
+
+   <button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="displayFullName()">
+        Display your full name.
+      </button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+<p id="fullNameDisplay">&nbsp;</p>
+</div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+<h3>Do I need a coat? - Part 1</h3>
+
+<h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+
+//Should I wear a coat?
+
+// Part 1
+// Make a variable called temperature. Write some code that tells you to put on a coat if it is
+below 50 degrees.
+
+function coatCheck() {
+var temperature;
+var coatWeather;
+
+temperature = document.getElementById("temperature").value;
+if (temperature == "") {
+return;
+}
+
+temp = parseInt(temperature);
+coatWeather = temp < 50 ? "Put on your coat!" : "No coat required!";
+document.getElementById("coatAdvice").innerHTML = coatWeather;
+}
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1"  for="temperature">Whats the temperature?</label>
+<input type="text" id="temperature" />
+
+<label class="tw-font-semibold tw-mb-1" >Please click the button to check if you need a coat.</label>
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="coatCheck()">Do I need a coat?</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="coatAdvice">&nbsp;</p>
+  </div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h3>Do I need a coat? - Part 2</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+//Should I wear a coat?
+
+// Part 2
+// If it's less than 50 degrees, wear a coat.
+// If it's less than 30 degrees, wear a coat and a hat.
+// If it's less than 0 degrees, stay inside.
+// Otherwise, just pants and vest is fine.
+
+function coatCheck2() {
+  var temperature2;
+  var coatWeather2;
+
+  temperature2 = document.getElementById("temperature2").value;
+  if (temperature2 == "") {
+    return;
+  }
+
+  temp2 = parseInt(temperature);
+
+  if (temp >= 50) coatWeather2 = "Pants and Vest are fine";
+  else if (temp >= 30) coatWeather2 = "Wear a Coat";
+  else if (temp >= 0) coatWeather2 = "Wear a Coat and a Hat";
+  else coatWeather2 = "Stay Inside";
+
+  document.getElementById("coatAdvice2").innerHTML = coatWeather2;
+}
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1"  for="temperature2">Whats the temperature?</label>
+<input type="text" id="temperature2" />
+
+<label class="tw-font-semibold tw-mb-1" >Please click the button to check if you need a coat.</label>
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="coatCheck2()">Do I need a coat?</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="coatAdvice2">&nbsp;</p>
+</div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h3>Age Calculator</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+
+// The Age Calculator
+
+// Forgot how old someone is? Calculate it!
+
+// Store the current year in a variable.
+// Store their birth year in a variable.
+// Calculate their 2 possible ages based on the stored values.
+// Output them to the screen like so: “They are either NN or NN”, substituting the values.
+
+function ageCalculator(currentyear, yearOfBirth) {
+var currentyear = new Date().getFullYear();
+var yearOfBirth = parseInt(document.getElementById("currentAge").value);
+var age = currentyear - yearOfBirth;
+return (document.getElementById("year").innerHTML =
+"You are either " + (age - 1) + " or " + age + ".");
+}
+}
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1" >Please enter your current Age</label>
+
+  <input type="number" id="currentAge" />
+  <button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="ageCalculator()">
+        Calculate your Age
+      </button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+
+<p id="year">&nbsp;</p>
+  </div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h3>Fortune Teller</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+// The Fortune Teller
+// Why pay a fortune teller when you can just program your fortune yourself?
+
+// Store the following into variables:
+
+// number of children
+// partner’s name
+// geographic location
+// job title
+// Output your fortune to the screen like so: “You will be a X in Y, and married to Z with N kids.”
+
+function fortuneTeller(numberOfChildren, partnersName, location, jobTitle) {
+  var numberOfChildren = document.getElementById("fortuneAge").value;
+  var partnersName = document.getElementById("partnersName").value;
+  var location = document.getElementById("location").value;
+  var jobTitle = document.getElementById("jobTitle").value;
+
+  return (document.getElementById(
+    "yourFortune"
+  ).innerHTML = `You will be a ${jobTitle} in ${location}, and married to ${partnersName} with ${numberOfChildren} kids.`);
+}
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1"  for="fortuneAge">Please enter your current Age</label>
+<input type="number" id="fortuneAge" />
+
+<label class="tw-font-semibold tw-mb-1"  for="partnersName">Please enter your partners Name</label>
+<input type="text" id="partnersName" />
+
+<label class="tw-font-semibold tw-mb-1"  for="location">Please enter your current location</label>
+<input type="text" id="location" />
+
+<label class="tw-font-semibold tw-mb-1"  for="jobTitle">Please enter your job title</label>
+<input type="text" id="jobTitle" />
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="fortuneTeller()">
+Let me tell your fortune
+</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="yourFortune">&nbsp;</p>
+</div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h3>Percentage Calculator</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+
+//Percentage Calculator
+
+//Create a percentage calculator that takes a number and % and return the percentage value.
+
+function percentageCalculator(num, per) {
+var num = parseInt(
+document.getElementById("percentageCalculatorNumber").value
+);
+var per = parseInt(
+document.getElementById("percentageCalculatorPercent").value
+);
+return (document.getElementById("percentageResult").innerHTML =
+(num / 100) \* per);
+}
+
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1"  for="percentageCalculatorNumber">Please enter a Number</label>
+<input type="number" id="percentageCalculatorNumber" />
+
+<label class="tw-font-semibold tw-mb-1"  for="percentageCalculatorPercent">Please enter a %</label>
+<input type="number" id="percentageCalculatorPercent" />
+
+   <button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="percentageCalculator()">
+        Work out the Percentage
+      </button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="percentageResult">&nbsp;</p>
+  </div>
+
+<div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+
+<a href="#top">Back To The Top</a></div>
+
+  <h3>Drinks Maker</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+
+//Drinks Maker
+
+//Use a switch statement to make a drink selection with two variabkes and return the drinks selection.
+
+function drinkOrder(size, drink) {
+var drink = document.getElementById("flavours").value;
+switch (drink) {
+case "cola":
+return outputDrinksOrder(size, "Cola");
+break;
+case "lemonade":
+return outputDrinksOrder(size, "Lemonade");
+break;
+case "orange":
+return outputDrinksOrder(size, "Orange");
+break;
+}
+}
+
+function outputDrinksOrder(size, drink) {
+var size = document.getElementById("sizes").value;
+switch (size) {
+case "small":
+return (document.getElementById("drinksOrder").innerHTML =
+"Your order is a Small " + drink);
+break;
+case "medium":
+return (document.getElementById("drinksOrder").innerHTML =
+"Your order is a Medium " + drink);
+break;
+case "large":
+return (document.getElementById("drinksOrder").innerHTML =
+"Your order is a Large " + drink);
+break;
+}
+}
+
+}
+</code></pre>
+
+  <h3>The Code in Action</h3>
+
+  <select name="flavour" id="flavours">
+        <option value="lemonade">Lemonade</option>
+        <option value="cola">Cola</option>
+        <option value="orange">Orangeade</option>
+      </select>
+
+  <select name="size" id="sizes">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="drinkOrder()">Show my Order</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="drinksOrder">&nbsp;</p>
+</div>
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <h3>Calculator</h3>
+
+  <h3>The Code</h3>
+
+<pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+
+//Calculator
+
+//Build a simple calculator that takes two integers and the operator and displays the result.
+
+function calculator(num1, num2, operator) {
+var num1 = parseInt(document.getElementById("num1").value);
+var num2 = parseInt(document.getElementById("num2").value);
+var operator = document.getElementById("operator").value;
+switch (operator) {
+case "+":
+var result = num1 + num2;
+document.getElementById(
+"calculatorResult"
+).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+break;
+case "-":
+var result = num1 - num2;
+document.getElementById(
+"calculatorResult"
+).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+return;
+break;
+case "_":
+var result = num1 _ num2;
+document.getElementById(
+"calculatorResult"
+).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+return;
+break;
+case "/":
+var result = num1 / num2;
+document.getElementById(
+"calculatorResult"
+).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+return;
+break;
+case "%":
+var result = num1 % num2;
+document.getElementById(
+"calculatorResult"
+).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+return;
+}
+}
+</code></pre>
+
+   <h3>The Code in Action</h3>
+
+<label class="tw-font-semibold tw-mb-1"  for="num1">Please enter a Number</label>
+<input type="number" id="num1" />
+
+  <select name="operator" id="operator">
+        <option value="+">+ Add</option>
+        <option value="-">- Subtract</option>
+        <option value="*">* Times</option>
+        <option value="/">/ Divide</option>
+        <option value="%">% Modulas</option>
+      </select>
+
+<label class="tw-font-semibold tw-mb-1"  for="num2">Please enter a Number</label>
+<input type="number" id="num2" />
+
+<button class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"  type="submit" onclick="calculator()">Calculate</button>
+
+<div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
+  <p id="calculatorResult">&nbsp;</p>
+</div>
+  </div>
+
+  <div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
+  <a href="#top">Back To The Top</a></div>
+
+  <!-- Scripts -->
+
+<script>
+
+//Tip Calculator
+
+//  We’ll make a program to calculate a tip:
+ 
+// Calculate the new total
+// Output a sentence to the page - something like: "Your total bill, with tip, is £35.45
+// Create variables for the pre-tip total and the tip percentage
+
+// BONUS POINTS:
+
+// Use `toFixed()` to round the output to 2 decimal places</p>
+// Display the tip amount in the output as well</p>
+
+// Additional</h4>
+
+// Make a Procedural `Function` in Javascript.
+
+  function tipCalculator(){
+
+  var billAmount = parseInt(document.getElementById('billAmount').value);
+
+  var tipPercentage = parseInt(document.getElementById('percentAmount').value).toFixed(2);
+
+  var tipPercentCalc = ((billAmount / 100) * tipPercentage).toFixed(2);
+
+  var totalBill = (billAmount + tipPercentCalc);
+  
+  return(
+  document.getElementById('totalBillSentence').innerHTML = `Your bill of £${billAmount.toFixed(2)}, with a ${tipPercentage}% tip of £${tipPercentCalc} , is a total bill of £${totalBill}`)
+ 
+}
+
+//Should I wear a coat?
+
+// Part 1
+// Make a variable called temperature. Write some code that tells you to put on a coat if it is below 50 degrees.
+
+function coatCheck() {
+  var temperature;
+  var coatWeather;
+
+  temperature = document.getElementById("temperature").value;
+  if (temperature == "") {
+    return;
+  }
+
+  temp = parseInt(temperature);
+  coatWeather = temp < 50 ? "Put on your coat!" : "No coat required!";
+  document.getElementById("coatAdvice").innerHTML = coatWeather;
+}
+
+// Part 2
+//  If it's less than 50 degrees, wear a coat.
+// If it's less than 30 degrees, wear a coat and a  hat.
+// If it's less than 0 degrees, stay inside.
+// Otherwise, just pants and vest is fine.
+
+function coatCheck2() {
+  var temperature2;
+  var coatWeather2;
+
+  temperature2 = document.getElementById("temperature2").value;
+  if (temperature2 == "") {
+    return;
+  }
+
+  temp2 = parseInt(temperature2);
+
+  if (temp2 >= 50) coatWeather2 = "Pants and Vest are fine";
+  else if (temp2 >= 30) coatWeather2 = "Wear a Coat";
+  else if (temp2 >= 0) coatWeather2 = "Wear a Coat and a Hat";
+  else coatWeather2 = "Stay Inside";
+
+  document.getElementById("coatAdvice2").innerHTML = coatWeather2;
+}
+
+//Full Name Display
+
+// Write a simple program to combine a first name and a last name inside a function.
+// Then update the function to accept a first and last name as arguments.
+
+// Add a return statement to your 'name' function. Use that function to set the value of a variable.
+
+function displayFullName(fName, lName) {
+  var fName = document.getElementById("fName").value;
+  var lName = document.getElementById("lName").value;
+
+  return (document.getElementById(
+    "fullNameDisplay"
+  ).innerHTML = `${fName} ${lName}`);
+}
+
+// Write a function that outputs a sentence. Then invoke that function later in your code.
+
+function createSentence() {
+  var newSentence = "Even the darkest night will end and the sun will rise.";
+  document.getElementById("sentence").innerHTML = newSentence;
+}
+
+// The Age Calculator
+
+// Forgot how old someone is? Calculate it!
+
+// Store the current year in a variable.
+// Store their birth year in a variable.
+// Calculate their 2 possible ages based on the stored values.
+// Output them to the screen like so: “They are either NN or NN”, substituting the values.
+
+function ageCalculator(currentyear, yearOfBirth) {
+  var currentyear = new Date().getFullYear();
+  var yearOfBirth = parseInt(document.getElementById("currentAge").value);
+  var age = currentyear - yearOfBirth;
+  return (document.getElementById("year").innerHTML =
+    "You are either " + (age - 1) + " or " + age + ".");
+}
+
+// The Fortune Teller
+// Why pay a fortune teller when you can just program your fortune yourself?
+
+// Store the following into variables:
+
+// number of children
+// partner’s name
+// geographic location
+// job title
+// Output your fortune to the screen like so: “You will be a X in Y, and married to Z with N kids.”
+
+function fortuneTeller(numberOfChildren, partnersName, location, jobTitle) {
+  var numberOfChildren = document.getElementById("fortuneAge").value;
+  var partnersName = document.getElementById("partnersName").value;
+  var location = document.getElementById("location").value;
+  var jobTitle = document.getElementById("jobTitle").value;
+
+  return (document.getElementById(
+    "yourFortune"
+  ).innerHTML = `You will be a ${jobTitle} in ${location}, and married to ${partnersName} with ${numberOfChildren} kids.`);
+}
+
+//Percentage Calculator
+
+//Create a percentage calculator that takes a number and % and return the percentage value.
+
+function percentageCalculator(num, per) {
+  var num = parseInt(
+    document.getElementById("percentageCalculatorNumber").value
+  );
+  var per = parseInt(
+    document.getElementById("percentageCalculatorPercent").value
+  );
+  return (document.getElementById("percentageResult").innerHTML =
+    (num / 100) * per);
+}
+
+//Drinks Maker
+
+//Use a switch statement to make a drink selection with two variabkes and return the drinks selection.
+
+function drinkOrder(size, drink) {
+  var drink = document.getElementById("flavours").value;
+  switch (drink) {
+    case "cola":
+      return outputDrinksOrder(size, "Cola");
+      break;
+    case "lemonade":
+      return outputDrinksOrder(size, "Lemonade");
+      break;
+    case "orange":
+      return outputDrinksOrder(size, "Orange");
+      break;
+  }
+}
+
+function outputDrinksOrder(size, drink) {
+  var size = document.getElementById("sizes").value;
+  switch (size) {
+    case "small":
+      return (document.getElementById("drinksOrder").innerHTML =
+        "Your order is a Small " + drink);
+      break;
+    case "medium":
+      return (document.getElementById("drinksOrder").innerHTML =
+        "Your order is a Medium " + drink);
+      break;
+    case "large":
+      return (document.getElementById("drinksOrder").innerHTML =
+        "Your order is a Large " + drink);
+      break;
+  }
+}
+
+//Calculator
+
+//Build a simple calculator that takes two integers and the operator and displays the result.
+
+function calculator(num1, num2, operator) {
+  var num1 = parseInt(document.getElementById("num1").value);
+  var num2 = parseInt(document.getElementById("num2").value);
+  var operator = document.getElementById("operator").value;
+  switch (operator) {
+    case "+":
+      var result = num1 + num2;
+      document.getElementById(
+        "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      break;
+    case "-":
+      var result = num1 - num2;
+      document.getElementById(
+        "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+      break;
+    case "*":
+      var result = num1 * num2;
+      document.getElementById(
+        "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+      break;
+    case "/":
+      var result = num1 / num2;
+      document.getElementById(
+        "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+      break;
+    case "%":
+      var result = num1 % num2;
+      document.getElementById(
+        "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+    }
+  }
+
+  </script>
