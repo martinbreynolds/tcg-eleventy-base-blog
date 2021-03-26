@@ -14,34 +14,627 @@ image: "/img/pages/image5.jpg"
 
 <p>On this page I will document my mandatory challenges with The Coders Guild</p>
 
-<h3 id="#top">Menu</h3>
-<menu class="tw-text-xl tw-list-none tw-font-bold tw-p-0">
- 
-<li class="tw-underline"><a href="#">HTML Table challenge (Lesson 3 - Semantic HTML)</a></li>
-<li><a>Git.It Electron Tutorial (Lesson 2 - Source Control)</a></li>
-<li><a>Make a Github pages profile (Lesson 2 - Source Control)</a></li>
-<li><a>Create a HTML page using bootstrap (Lesson 4 - Frameworks)</a></li>
-<li><a>Create a Jamstack site in 11ty (Lesson 5 - Static Site Generators)</a></li>
-<li><a>Add bootstrap to 11ty site with Git (Lesson 6 - Git Workflows)</a></li>
-<li><a>Update you site making detailed commits (Lesson 6 - Git Workflow)</a></li>
-<li><a>Add a form to your 11ty site (Lesson 7 - Form Processing)</a></li>
-<li><a>Add CMS to you 11ty site (Lesson 8 - Content Management)</a></li>
-<li><a>Add further data and page types to CMS (Lesson 8 - Content management)</a></li>
-<li><a>Create a tip calculator in javascript (Lesson 9 - Programming Concepts)</a></li>
-<li><a>Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</a></li>
-<li><a>Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</a></li>
-<li><a>Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow)</a></li>
-<li><a>"Shall I wear a coat?" function (Lesson 10 - Functions and Control Flow)</a></li>
-<li><a>Percentage Calculator (Lesson 11 - Functions Practical)</a></li>
-<li><a>Switch Statements (Lesson 11 - Functions Practical)</a></li>
-<li><a>Build a calculation function (Lesson 11 - Functions Practical)</a></li>
+<div class="accordion" id="challengesaccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeone">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h4><a>HTML Table challenge (Lesson 3 - Semantic HTML)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">HTML Table challenge (Lesson 3 - Semantic HTML)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+          <li type="1">The table width should fill any container it is put in</li>
+          <li type="1">The noise image is on the table body only not the head or foot</li>
+          <li type="1">The two fonts are Rock Salt and Helvetica Neu</li>
+          <li type="1">Here is that lovely leopard skin image</li>
+          <li type="1">There is a gradient fill on the header and footer - rgba(0,0,0,0.1), rgba(0,0,0,0.5)</li>
+          <li type="1">Here are those delicious colours</li>
+            <ol class="tw-ml-6">
+            <li type="i">#800080 (Border)</li>
+            <li type="i">#ff33cc (background on rows 1, 3, 5, and 7)</li>
+            <li type="i">#e495e4 (background on rows 2, 4, 6, and 8)</li>
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
 
-</menu>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengetwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        <h4><a>Git.It Electron Tutorial (Lesson 2 - Source Control)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/patchwork/tree/add-martinbreynolds"> https://github.com/martinbreynolds/patchwork/tree/add-martinbreynolds</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Git.It Electron Tutorial (Lesson 2 - Source Control)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <p class=" tw-font-semibold">Complete the git-it electron challenges. <a href="https://github.com/jlord/git-it-electron">https://github.com/jlord/git-it-electron</a></p>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/hello-world" target="_blank">My Hello World Repo</a><br/>
+        <a href="https://github.com/martinbreynolds/patchwork" target="_blank">My Patchwork Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <img src="/img/pages/git-it.png" class=" tw-w-1/2 tw-h-auto  tw-pb-3" />
+        <p>My name can be found on the jlord.us Patchwork <a href="http://jlord.us/patchwork/">Github Page</a>.</p><br/>
+        <a href="https://github.com/martinbreynolds/patchwork/tree/add-martinbreynolds"> My Patchwork Branch</a>
+      </div>
+    </div>
+  </div>
 
-<h3>Javascript Challenges - Programming Concepts</h3>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengethree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+        <h4><a>Make a Github pages profile (Lesson 2 - Source Control)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Make a Github pages profile (Lesson 2 - Source Control)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
 
-<h4><a>HTML Table challenge (Lesson 3 - Semantic HTML)</a></h4>
-<a href="https://github.com/martinbreynolds/semantic-html-challenge"><i class="fab fa-github"></i> Find my repository here.</a>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengefour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        <h4><a>Create a HTML page using bootstrap (Lesson 4 - Frameworks)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Create a HTML page using bootstrap (Lesson 4 - Frameworks)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengefive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+        <h4><a>Create a Jamstack site in 11ty (Lesson 5 - Static Site Generators)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Create a Jamstack site in 11ty (Lesson 5 - Static Site Generators)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengesix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+        <h4><a>Add bootstrap to 11ty site with Git (Lesson 6 - Git Workflows)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Add bootstrap to 11ty site with Git (Lesson 6 - Git Workflows)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeseven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+        <h4><a>Update you site making detailed commits (Lesson 6 - Git Workflow)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Update you site making detailed commits (Lesson 6 - Git Workflow)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeeight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+        <h4><a>Add a form to your 11ty site (Lesson 7 - Form Processing)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Add a form to your 11ty site (Lesson 7 - Form Processing)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengenine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+        <h4><a>Add CMS to you 11ty site (Lesson 8 - Content Management)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Add CMS to you 11ty site (Lesson 8 - Content Management)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeten">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+        <h4><a>Add further data and page types to CMS (Lesson 8 - Content management)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Add further data and page types to CMS (Lesson 8 - Content management)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeeleven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+        <h4><a>Create a tip calculator in javascript (Lesson 9 - Programming Concepts)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Create a tip calculator in javascript (Lesson 9 - Programming Concepts)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengetwelve">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+        <h4><a>Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengethirteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+        <h4><a>Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengefourteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+        <h4><a>Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengefifteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+        <h4><a>"Shall I wear a coat?" function (Lesson 10 - Functions and Control Flow)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">"Shall I wear a coat?" function (Lesson 10 - Functions and Control Flow)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengesixteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+        <h4><a>Percentage Calculator (Lesson 11 - Functions Practical)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Percentage Calculator (Lesson 11 - Functions Practical)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeseventeen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
+        <h4><a>Switch Statements (Lesson 11 - Functions Practical)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Switch Statements (Lesson 11 - Functions Practical)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="challengeeighteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
+        <h4><a>Build a calculation function (Lesson 11 - Functions Practical)</a></h4>
+      </button>
+    </h2>
+    <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+      <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
+       <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
+       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+      </div>
+      <div class="accordion-title tw-p-3">
+        <h4 class="tw-py-3">Build a calculation function (Lesson 11 - Functions Practical)</h4>
+      </div>
+      <div class="accordion-challenge tw-px-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
+        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
+        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <ol class="tw-p-3 tw-ml-3">
+            <ol class="tw-ml-6">
+            </ol>
+        </ol>
+      </div>
+      <div class="accordion-code tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+      </div>
+      <div class="accordion-code-in-practice tw-p-3">
+        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 <h3>Tip Calculator</h3>
 
