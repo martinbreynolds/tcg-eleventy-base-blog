@@ -316,27 +316,28 @@ image: "/img/pages/image5.jpg"
     <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/"> https://github.com/martinbreynolds/tcg-eleventy-base-blog/</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Add CMS to you 11ty site (Lesson 8 - Content Management)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <p class=" tw-font-semibold">Add a netlify CMS to your site.</p>
         <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
-            </ol>
+          <li type="1">Add variables to your template file to output the data</li>
+          <li type="1">Test the site locally to confirm the updates work.</li>
+          <li type="1">Commit and push the work to your live site.</li>
         </ol>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+        <i class="fa fa-code-branch tw-text-cyan-600 tw-mr-3" ></i><a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/add-netifly-cms" target="_blank">See the code on my Github Repo Branch</a>
       </div>
-      <div class="accordion-code-in-practice tw-p-3">
+       <div class="accordion-code-in-practice tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <p>The image below shows my code working and the CMS for blog posts accessible in the back end.</p>
+        <img class=" tw-h-auto tw-w-2/3 tw-pb-3" src="/./img/pages/blog-post-cms.png" />
       </div>
     </div>
   </div>
@@ -350,27 +351,27 @@ image: "/img/pages/image5.jpg"
     <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/"> https://github.com/martinbreynolds/tcg-eleventy-base-blog/</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Add further data and page types to CMS (Lesson 8 - Content management)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
-        <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
+        <p class=" tw-font-semibold">Add more data and page types.</p>
+            <ol class="tw-p-3 tw-ml-3">
+              <li type="1">Play with Netlify CMS and add more page types and data</li>
+              <li type="1">Create more templates for the page types</li>
             </ol>
-        </ol>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+        <i class="fa fa-code-branch tw-text-cyan-600 tw-mr-3" ></i><a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/adding-pages-collection-to-CMS" target="_blank">See the code on my Github Repo Branch</a>
       </div>
       <div class="accordion-code-in-practice tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <p>The image below shows my code working and the CMS for the new collection pages accessible in the back end.</p>
+        <img class=" tw-h-auto tw-w-2/3 tw-pb-3" src="/./img/pages/page-collection-cms.png" />
       </div>
     </div>
   </div>
