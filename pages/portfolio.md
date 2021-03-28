@@ -206,27 +206,29 @@ image: "/img/pages/image5.jpg"
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/adding-bootstrap"> https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/adding-bootstrap</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Add bootstrap to 11ty site with Git (Lesson 6 - Git Workflows)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <p class=" tw-font-semibold">Add bootstrap to your 11ty site.</p>
         <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
-            </ol>
+              <li type="1">Create a new branch</li>
+              <li type="1">Add bootstrap</li>
+              <li type="1">Commit the work</li>
+              <li type="1">Merge the branches</li>
+              <li type="1">Push the work to master</li>
         </ol>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
+        <i class="fa fa-code-branch tw-text-cyan-600 tw-mr-3" ></i><a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/adding-bootstrap" target="_blank">See the code on my Github Repo Branch</a>
       </div>
       <div class="accordion-code-in-practice tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <p>This site you are on is my final 11ty Blog Site.</p>
       </div>
     </div>
   </div>
@@ -240,27 +242,23 @@ image: "/img/pages/image5.jpg"
     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/"> https://github.com/martinbreynolds/tcg-eleventy-base-blog/</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Update you site making detailed commits (Lesson 6 - Git Workflow)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <p class=" tw-font-semibold">Update you site making detailed commits.</p>
         <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6">
-            </ol>
+          <li type="1">Update your site to have a bootstrap header and footer area/ layout in general.</li>
+          <li type="1">Add some extra components to your site with dummy content.</li>
         </ol>
       </div>
       <div class="accordion-code tw-p-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
-      </div>
-      <div class="accordion-code-in-practice tw-p-3">
-        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
+        <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/commits/master" target="_blank">See all my commits here on my Github Repo</a>
+        <p>Note: During development of the site I decided to reduce the use of Bootstrap and introduce more tailwind CSS styling.  This accordion however uses Bootstrap.</p>
       </div>
     </div>
   </div>
@@ -274,29 +272,39 @@ image: "/img/pages/image5.jpg"
     <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
       <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
        <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i><p class="tw-py-3">Github Repository</p>
-       <a href="https://github.com/martinbreynolds/semantic-html-challenge"> https://github.com/martinbreynolds/semantic-html-challenge</a>
+       <a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog"> https://github.com/martinbreynolds/semantic-html-challenge</a>
       </div>
       <div class="accordion-title tw-p-3">
         <h4 class="tw-py-3">Add a form to your 11ty site (Lesson 7 - Form Processing)</h4>
       </div>
       <div class="accordion-challenge tw-px-3">
         <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Challenge</h5>
-        <img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/semantic-html-challenge.png" />
-        <p class=" tw-font-semibold">Make the table above in HTML and style with CSS and embed your solution in a blog post.</p>
+        <p class=" tw-font-semibold">Add a form to your 11ty site.</p>
         <ol class="tw-p-3 tw-ml-3">
+            <li type="1">Create a new page on your static site.
+            <li type="1">Create a new HTML form on the new page.
             <ol class="tw-ml-6">
+            <li type="1">First name.</li>
+            <li type="1">Surname.</li>
+            <li type="1">Email.</li>
+            <li type="1">Message.</li>
             </ol>
-        </ol>
-      </div>
-      <div class="accordion-code tw-p-3">
-        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
-        <a href="https://github.com/martinbreynolds/semantic-html-challenge" target="_blank">See the code on my Github Repo</a>
-      </div>
-      <div class="accordion-code-in-practice tw-p-3">
-        <h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
-        <p>The code can be found on my <a href="https://martinbreynolds.github.io/semantic-html-challenge/">Github Page</a>.</p>
-      </div>
-    </div>
+            <li type="1">Embed the form in your site.</li>
+            <li type="1">Test the form on the site.</li>
+            <li type="1">Test the data was submitted.</li>
+</ol>
+</div>
+<div class="accordion-code tw-p-3">
+<h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code</h5>
+<i class="fa fa-code-branch tw-text-cyan-600 tw-mr-3" ></i><a href="https://github.com/martinbreynolds/tcg-eleventy-base-blog/tree/Adding-contact-form" target="_blank">See the code on my Github Repo Branch</a>
+</div>
+<div class="accordion-code-in-practice tw-p-3">
+<h5 class="tw-py-3 tw-font-bold tw-bg-cyan-700 tw-text-gray-50 tw-pl-6 tw-mb-3">The Code in Action</h5>
+<p>The image below shows my code working and the test data was submitted to the form backend on Netlify.</p>
+<img class=" tw-h-auto tw-w-1/2 tw-pb-3" src="/./img/pages/contact-form-submitted.png" />
+</div>
+</div>
+
   </div>
 
   <div class="accordion-item">
