@@ -1674,8 +1674,8 @@ function outputDrinksOrder(size, drink) {
         <div class="accordion-links tw-p-3 tw-bg-cyan-900 tw-text-gray-50">
           <i class="fab fa-github fa-2x tw-font-serif tw-p-3"></i>
           <p class="tw-py-3">Github Repository</p>
-          <a href="https://github.com/martinbreynolds/semantic-html-challenge">
-            https://github.com/martinbreynolds/semantic-html-challenge</a
+          <a href="https://github.com/martinbreynolds/JS-Challenges">
+            https://github.com/martinbreynolds/JS-Challenges</a
           >
         </div>
         <div class="accordion-title tw-p-3">
@@ -1689,17 +1689,10 @@ function outputDrinksOrder(size, drink) {
           >
             The Challenge
           </h5>
-          <img
-            class="tw-h-auto tw-w-1/2 tw-pb-3"
-            src="/./img/pages/semantic-html-challenge.png"
-          />
           <p class="tw-font-semibold">
-            Make the table above in HTML and style with CSS and embed your
-            solution in a blog post.
+            Build a simple calculator that takes two integers and the operator
+            and displays the result.
           </p>
-          <ol class="tw-p-3 tw-ml-3">
-            <ol class="tw-ml-6"></ol>
-          </ol>
         </div>
         <div class="accordion-code tw-p-3">
           <h5
@@ -1708,10 +1701,52 @@ function outputDrinksOrder(size, drink) {
             The Code
           </h5>
           <a
-            href="https://github.com/martinbreynolds/semantic-html-challenge"
+            href="https://github.com/martinbreynolds/JS-Challenges/blob/master/scripts/calculationFunction.js"
             target="_blank"
             >See the code on my Github Repo</a
           >
+          <pre class="tw-bg-gray-900 tw-text-gray-50 tw-m-3"><code>
+function calculator(num1, num2, operator) {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var operator = document.getElementById("operator").value;
+      switch (operator) {
+      case "+":
+      var result = num1 + num2;
+      document.getElementById(
+      "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      break;
+      case "-":
+      var result = num1 - num2;
+      document.getElementById(
+      "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+      break;
+      case "_":
+      var result = num1 _ num2;
+      document.getElementById(
+      "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+      break;
+      case "/":
+      var result = num1 / num2;
+      document.getElementById(
+      "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+      return;
+      break;
+      case "%":
+      var result = num1 % num2;
+      document.getElementById(
+      "calculatorResult"
+      ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+    return;
+    }
+}
+</code></pre>
         </div>
         <div class="accordion-code-in-practice tw-p-3">
           <h5
@@ -1719,359 +1754,254 @@ function outputDrinksOrder(size, drink) {
           >
             The Code in Action
           </h5>
-          <p>
-            The code can be found on my
-            <a href="https://martinbreynolds.github.io/semantic-html-challenge/"
-              >Github Page</a
-            >.
-          </p>
+          <label class="tw-font-semibold tw-mb-1" for="num1"
+            >Please enter a Number</label
+          ><br />
+          <input type="number" id="num1" />
+          <br />
+          <select name="operator" id="operator">
+            <option value="+">+ Add</option>
+            <option value="-">- Subtract</option>
+            <option value="*">* Times</option>
+            <option value="/">/ Divide</option>
+            <option value="%">% Modulas</option>
+          </select>
+          <br />
+          <label class="tw-font-semibold tw-mb-1" for="num2"
+            >Please enter a Number</label
+          ><br />
+          <input type="number" id="num2" />
+          <br />
+          <button
+            class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"
+            type="submit"
+            onclick="calculator()"
+          >
+            Calculate
+          </button>
+          <div
+            class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4"
+          >
+            <p id="calculatorResult">&nbsp;</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <h3>The Code in Action</h3>
+  <!-- Scripts -->
 
-  <h3>Calculator</h3>
+  <script>
+    //Tip Calculator
 
-  <h3>The Code</h3>
+    //  We’ll make a program to calculate a tip:
 
-  <pre class="tw-bg-gray-900 tw-text-gray-50"><code>
+    // Calculate the new total
+    // Output a sentence to the page - something like: "Your total bill, with tip, is £35.45
+    // Create variables for the pre-tip total and the tip percentage
 
-//Calculator
+    // BONUS POINTS:
 
-//Build a simple calculator that takes two integers and the operator and displays the result.
+    // Use `toFixed()` to round the output to 2 decimal places</p>
+    // Display the tip amount in the output as well</p>
 
-function calculator(num1, num2, operator) {
-var num1 = parseInt(document.getElementById("num1").value);
-var num2 = parseInt(document.getElementById("num2").value);
-var operator = document.getElementById("operator").value;
-switch (operator) {
-case "+":
-var result = num1 + num2;
-document.getElementById(
-"calculatorResult"
-).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-break;
-case "-":
-var result = num1 - num2;
-document.getElementById(
-"calculatorResult"
-).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-return;
-break;
-case "_":
-var result = num1 _ num2;
-document.getElementById(
-"calculatorResult"
-).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-return;
-break;
-case "/":
-var result = num1 / num2;
-document.getElementById(
-"calculatorResult"
-).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-return;
-break;
-case "%":
-var result = num1 % num2;
-document.getElementById(
-"calculatorResult"
-).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-return;
-}
-}
-</code></pre>
+    // Additional</h4>
 
-  <h3>The Code in Action</h3>
+    // Make a Procedural `Function` in Javascript.
 
-  <label class="tw-font-semibold tw-mb-1" for="num1"
-    >Please enter a Number</label
-  >
-  <input type="number" id="num1" />
+    function tipCalculator() {
+      var billAmount = parseInt(document.getElementById("billAmount").value);
 
-  <select name="operator" id="operator">
-    <option value="+">+ Add</option>
-    <option value="-">- Subtract</option>
-    <option value="*">* Times</option>
-    <option value="/">/ Divide</option>
-    <option value="%">% Modulas</option>
-  </select>
+      var tipPercentage = parseInt(
+        document.getElementById("percentAmount").value
+      );
 
-  <label class="tw-font-semibold tw-mb-1" for="num2"
-    >Please enter a Number</label
-  >
-  <input type="number" id="num2" />
+      var tipPercentCalc = (billAmount / 100) * tipPercentage;
 
-  <button
-    class="tw-my-5 tw-bg-cyan-900 tw-font-bold tw-uppercase tw-text-gray-50 tw-p-2 tw-border-gray-300 tw-border-solid tw-border-2 tw-rounded-xl"
-    type="submit"
-    onclick="calculator()"
-  >
-    Calculate
-  </button>
+      var totalBill = billAmount + tipPercentCalc;
 
-  <div class="answerArea tw-bg-cyan-900 tw-text-gray-50 tw-p-6 tw-mt-4 mb-4">
-    <p id="calculatorResult">&nbsp;</p>
-  </div>
+      return (document.getElementById(
+        "totalBillSentence"
+      ).innerHTML = `Your bill of £${billAmount.toFixed(
+        2
+      )}, with a ${tipPercentage.toFixed(2)}% tip of £${tipPercentCalc.toFixed(
+        2
+      )} , is a total bill of £${totalBill.toFixed(2)}`);
+    }
+
+    //Should I wear a coat?
+
+    // Part 1
+    // Make a variable called temperature. Write some code that tells you to put on a coat if it is below 50 degrees.
+
+    function coatCheck() {
+      var temperature;
+      var coatWeather;
+
+      temperature = document.getElementById("temperature").value;
+      if (temperature == "") {
+        return;
+      }
+
+      temp = parseInt(temperature);
+      coatWeather = temp < 50 ? "Put on your coat!" : "No coat required!";
+      document.getElementById("coatAdvice").innerHTML = coatWeather;
+    }
+
+    // Part 2
+    //  If it's less than 50 degrees, wear a coat.
+    // If it's less than 30 degrees, wear a coat and a  hat.
+    // If it's less than 0 degrees, stay inside.
+    // Otherwise, just pants and vest is fine.
+
+    function coatCheck2() {
+      var temperature2;
+      var coatWeather2;
+
+      temperature2 = document.getElementById("temperature2").value;
+      if (temperature2 == "") {
+        return;
+      }
+
+      temp2 = parseInt(temperature2);
+
+      if (temp2 >= 50) coatWeather2 = "Pants and Vest are fine";
+      else if (temp2 >= 30) coatWeather2 = "Wear a Coat";
+      else if (temp2 >= 0) coatWeather2 = "Wear a Coat and a Hat";
+      else coatWeather2 = "Stay Inside";
+
+      document.getElementById("coatAdvice2").innerHTML = coatWeather2;
+    }
+
+    //Full Name Display
+
+    // Write a simple program to combine a first name and a last name inside a function.
+    // Then update the function to accept a first and last name as arguments.
+
+    function displayFullName(fName, lName) {
+      var fName = document.getElementById("fName").value;
+      var lName = document.getElementById("lName").value;
+
+      return (document.getElementById(
+        "fullNameDisplay"
+      ).innerHTML = `${fName} ${lName}`);
+    }
+
+    //Full Name Display
+
+    // Add a return statement to your 'name' function. Use that function to set the value of a variable.
+
+    function displayFullName(fName, lName) {
+      var fName = document.getElementById("fName2").value;
+      var lName = document.getElementById("lName2").value;
+      var fullName = `${fName} ${lName}`;
+
+      return (document.getElementById("fullNameDisplay2").innerHTML = fullName);
+    }
+
+    // Write a function that outputs a sentence. Then invoke that function later in your code.
+
+    function createSentence() {
+      var newSentence =
+        "Even the darkest night will end and the sun will rise. - Victor Hugo";
+      document.getElementById("sentence").innerHTML = newSentence;
+    }
+
+    //Percentage Calculator
+
+    //Create a percentage calculator that takes a number and % and return the percentage value.
+
+    function percentageCalculator(num, per) {
+      var num = parseInt(
+        document.getElementById("percentageCalculatorNumber").value
+      );
+      var per = parseInt(
+        document.getElementById("percentageCalculatorPercent").value
+      );
+      return (document.getElementById("percentageResult").innerHTML =
+        (num / 100) * per);
+    }
+
+    //Drinks Maker
+
+    //Use a switch statement to make a drink selection with two variabkes and return the drinks selection.
+
+    function drinkOrder(size, drink) {
+      var drink = document.getElementById("flavours").value;
+      switch (drink) {
+        case "cola":
+          return outputDrinksOrder(size, "Cola");
+          break;
+        case "lemonade":
+          return outputDrinksOrder(size, "Lemonade");
+          break;
+        case "orange":
+          return outputDrinksOrder(size, "Orange");
+          break;
+      }
+    }
+
+    function outputDrinksOrder(size, drink) {
+      var size = document.getElementById("sizes").value;
+      switch (size) {
+        case "small":
+          return (document.getElementById("drinksOrder").innerHTML =
+            "Your order is a Small " + drink);
+          break;
+        case "medium":
+          return (document.getElementById("drinksOrder").innerHTML =
+            "Your order is a Medium " + drink);
+          break;
+        case "large":
+          return (document.getElementById("drinksOrder").innerHTML =
+            "Your order is a Large " + drink);
+          break;
+      }
+    }
+
+    //Calculator
+
+    //Build a simple calculator that takes two integers and the operator and displays the result.
+
+    function calculator(num1, num2, operator) {
+      var num1 = parseInt(document.getElementById("num1").value);
+      var num2 = parseInt(document.getElementById("num2").value);
+      var operator = document.getElementById("operator").value;
+      switch (operator) {
+        case "+":
+          var result = num1 + num2;
+          document.getElementById(
+            "calculatorResult"
+          ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+          break;
+        case "-":
+          var result = num1 - num2;
+          document.getElementById(
+            "calculatorResult"
+          ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+          return;
+          break;
+        case "*":
+          var result = num1 * num2;
+          document.getElementById(
+            "calculatorResult"
+          ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+          return;
+          break;
+        case "/":
+          var result = num1 / num2;
+          document.getElementById(
+            "calculatorResult"
+          ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+          return;
+          break;
+        case "%":
+          var result = num1 % num2;
+          document.getElementById(
+            "calculatorResult"
+          ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
+          return;
+      }
+    }
+  </script>
 </div>
-
-<div class="tw-mb-4 tw-border-b-4 tw-border-solid tw-border-cyan-900 tw-p-3">
-  <a href="#top">Back To The Top</a>
-</div>
-
-<!-- Scripts -->
-
-<script>
-  //Tip Calculator
-
-  //  We’ll make a program to calculate a tip:
-
-  // Calculate the new total
-  // Output a sentence to the page - something like: "Your total bill, with tip, is £35.45
-  // Create variables for the pre-tip total and the tip percentage
-
-  // BONUS POINTS:
-
-  // Use `toFixed()` to round the output to 2 decimal places</p>
-  // Display the tip amount in the output as well</p>
-
-  // Additional</h4>
-
-  // Make a Procedural `Function` in Javascript.
-
-  function tipCalculator() {
-    var billAmount = parseInt(document.getElementById("billAmount").value);
-
-    var tipPercentage = parseInt(
-      document.getElementById("percentAmount").value
-    );
-
-    var tipPercentCalc = (billAmount / 100) * tipPercentage;
-
-    var totalBill = billAmount + tipPercentCalc;
-
-    return (document.getElementById(
-      "totalBillSentence"
-    ).innerHTML = `Your bill of £${billAmount.toFixed(
-      2
-    )}, with a ${tipPercentage.toFixed(2)}% tip of £${tipPercentCalc.toFixed(
-      2
-    )} , is a total bill of £${totalBill.toFixed(2)}`);
-  }
-
-  //Should I wear a coat?
-
-  // Part 1
-  // Make a variable called temperature. Write some code that tells you to put on a coat if it is below 50 degrees.
-
-  function coatCheck() {
-    var temperature;
-    var coatWeather;
-
-    temperature = document.getElementById("temperature").value;
-    if (temperature == "") {
-      return;
-    }
-
-    temp = parseInt(temperature);
-    coatWeather = temp < 50 ? "Put on your coat!" : "No coat required!";
-    document.getElementById("coatAdvice").innerHTML = coatWeather;
-  }
-
-  // Part 2
-  //  If it's less than 50 degrees, wear a coat.
-  // If it's less than 30 degrees, wear a coat and a  hat.
-  // If it's less than 0 degrees, stay inside.
-  // Otherwise, just pants and vest is fine.
-
-  function coatCheck2() {
-    var temperature2;
-    var coatWeather2;
-
-    temperature2 = document.getElementById("temperature2").value;
-    if (temperature2 == "") {
-      return;
-    }
-
-    temp2 = parseInt(temperature2);
-
-    if (temp2 >= 50) coatWeather2 = "Pants and Vest are fine";
-    else if (temp2 >= 30) coatWeather2 = "Wear a Coat";
-    else if (temp2 >= 0) coatWeather2 = "Wear a Coat and a Hat";
-    else coatWeather2 = "Stay Inside";
-
-    document.getElementById("coatAdvice2").innerHTML = coatWeather2;
-  }
-
-  //Full Name Display
-
-  // Write a simple program to combine a first name and a last name inside a function.
-  // Then update the function to accept a first and last name as arguments.
-
-  function displayFullName(fName, lName) {
-    var fName = document.getElementById("fName").value;
-    var lName = document.getElementById("lName").value;
-
-    return (document.getElementById(
-      "fullNameDisplay"
-    ).innerHTML = `${fName} ${lName}`);
-  }
-
-  //Full Name Display
-
-  // Add a return statement to your 'name' function. Use that function to set the value of a variable.
-
-  function displayFullName(fName, lName) {
-    var fName = document.getElementById("fName2").value;
-    var lName = document.getElementById("lName2").value;
-    var fullName = `${fName} ${lName}`;
-
-    return (document.getElementById("fullNameDisplay2").innerHTML = fullName);
-  }
-
-  // Write a function that outputs a sentence. Then invoke that function later in your code.
-
-  function createSentence() {
-    var newSentence =
-      "Even the darkest night will end and the sun will rise. - Victor Hugo";
-    document.getElementById("sentence").innerHTML = newSentence;
-  }
-
-  // The Age Calculator
-
-  // Forgot how old someone is? Calculate it!
-
-  // Store the current year in a variable.
-  // Store their birth year in a variable.
-  // Calculate their 2 possible ages based on the stored values.
-  // Output them to the screen like so: “They are either NN or NN”, substituting the values.
-
-  function ageCalculator(currentyear, yearOfBirth) {
-    var currentyear = new Date().getFullYear();
-    var yearOfBirth = parseInt(document.getElementById("currentAge").value);
-    var age = currentyear - yearOfBirth;
-    return (document.getElementById("year").innerHTML =
-      "You are either " + (age - 1) + " or " + age + ".");
-  }
-
-  // The Fortune Teller
-  // Why pay a fortune teller when you can just program your fortune yourself?
-
-  // Store the following into variables:
-
-  // number of children
-  // partner’s name
-  // geographic location
-  // job title
-  // Output your fortune to the screen like so: “You will be a X in Y, and married to Z with N kids.”
-
-  function fortuneTeller(numberOfChildren, partnersName, location, jobTitle) {
-    var numberOfChildren = document.getElementById("fortuneAge").value;
-    var partnersName = document.getElementById("partnersName").value;
-    var location = document.getElementById("location").value;
-    var jobTitle = document.getElementById("jobTitle").value;
-
-    return (document.getElementById(
-      "yourFortune"
-    ).innerHTML = `You will be a ${jobTitle} in ${location}, and married to ${partnersName} with ${numberOfChildren} kids.`);
-  }
-
-  //Percentage Calculator
-
-  //Create a percentage calculator that takes a number and % and return the percentage value.
-
-  function percentageCalculator(num, per) {
-    var num = parseInt(
-      document.getElementById("percentageCalculatorNumber").value
-    );
-    var per = parseInt(
-      document.getElementById("percentageCalculatorPercent").value
-    );
-    return (document.getElementById("percentageResult").innerHTML =
-      (num / 100) * per);
-  }
-
-  //Drinks Maker
-
-  //Use a switch statement to make a drink selection with two variabkes and return the drinks selection.
-
-  function drinkOrder(size, drink) {
-    var drink = document.getElementById("flavours").value;
-    switch (drink) {
-      case "cola":
-        return outputDrinksOrder(size, "Cola");
-        break;
-      case "lemonade":
-        return outputDrinksOrder(size, "Lemonade");
-        break;
-      case "orange":
-        return outputDrinksOrder(size, "Orange");
-        break;
-    }
-  }
-
-  function outputDrinksOrder(size, drink) {
-    var size = document.getElementById("sizes").value;
-    switch (size) {
-      case "small":
-        return (document.getElementById("drinksOrder").innerHTML =
-          "Your order is a Small " + drink);
-        break;
-      case "medium":
-        return (document.getElementById("drinksOrder").innerHTML =
-          "Your order is a Medium " + drink);
-        break;
-      case "large":
-        return (document.getElementById("drinksOrder").innerHTML =
-          "Your order is a Large " + drink);
-        break;
-    }
-  }
-
-  //Calculator
-
-  //Build a simple calculator that takes two integers and the operator and displays the result.
-
-  function calculator(num1, num2, operator) {
-    var num1 = parseInt(document.getElementById("num1").value);
-    var num2 = parseInt(document.getElementById("num2").value);
-    var operator = document.getElementById("operator").value;
-    switch (operator) {
-      case "+":
-        var result = num1 + num2;
-        document.getElementById(
-          "calculatorResult"
-        ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-        break;
-      case "-":
-        var result = num1 - num2;
-        document.getElementById(
-          "calculatorResult"
-        ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-        return;
-        break;
-      case "*":
-        var result = num1 * num2;
-        document.getElementById(
-          "calculatorResult"
-        ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-        return;
-        break;
-      case "/":
-        var result = num1 / num2;
-        document.getElementById(
-          "calculatorResult"
-        ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-        return;
-        break;
-      case "%":
-        var result = num1 % num2;
-        document.getElementById(
-          "calculatorResult"
-        ).innerHTML = `${num1} ${operator} ${num2} = ${result}`;
-        return;
-    }
-  }
-</script>
