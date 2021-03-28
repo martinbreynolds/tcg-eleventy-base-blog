@@ -22,7 +22,7 @@
     {% set navPages = collections.all | eleventyNavigation %} {% macro
     renderNavListItem(entry) -%}
     <div
-      class="lg:tw-w-1/6 tw-flex tw-flex-col lg:tw-flex-row tw-align-bottom nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"
+      class="lg:tw-justify-center lg:tw-w-1/6 tw-flex tw-flex-col lg:tw-flex-row tw-align-bottom nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"
     >
       <li class="">
         <!-- Parent Elements-->

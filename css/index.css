@@ -281,8 +281,6 @@ h5 {
 
 #postStyle p {
   font-size: 1rem;
-  color: black;
-  padding-bottom: 1.5rem;
 }
 
 #postStyle a {
@@ -300,7 +298,6 @@ h5 {
 /* Page Font Styling */
 #pageStyle h1 {
   font-size: 32px;
-  line-height: 38px;
   font-weight: 900;
   color: #174f63;
   margin-bottom: 10px;
@@ -308,7 +305,6 @@ h5 {
 
 #pageStyle h2 {
   font-size: 30px;
-  line-height: 30px;
   font-weight: 800;
   color: #174f63;
   margin-bottom: 8px;
@@ -316,7 +312,6 @@ h5 {
 
 #pageStyle h3 {
   font-size: 28px;
-  line-height: 32px;
   font-weight: 700;
   color: #174f63;
   padding-bottom: 6px;
@@ -325,24 +320,16 @@ h5 {
 
 #pageStyle h4 {
   font-size: 20px;
-  line-height: 18px;
   font-weight: 600;
   color: #174f63;
-  padding-bottom: 1.6rem;
 }
 
 #pageStyle h5 {
   font-size: 18px;
-  line-height: 16px;
-  font-weight: 500;
-  color: #174f63;
-  padding-bottom: 1.5rem;
 }
 
 #pageStyle p {
   font-size: 1rem;
-  color: black;
-  padding-bottom: 1.5rem;
 }
 
 #pageStyle a {
@@ -399,4 +386,16 @@ h5 {
 .nav-item-active li a {
   color: grey !important;
   text-decoration: none;
+}
+
+input {
+  border: 1px solid #174f63;
+  background-color: lightgray;
+}
+
+select {
+  margin: 10px 0 !important;
+
+  border: 1px solid #174f63;
+  background-color: lightgray;
 }

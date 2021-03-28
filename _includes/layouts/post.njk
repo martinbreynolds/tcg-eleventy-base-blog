@@ -3,7 +3,7 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<div class="tw-p-3 tw-mb-6">
+<div class="tw-container tw-p-6 tw-mx-auto">
   <h1
     class="tw-text-2xl tw-text-cyan-50 tw-font-bold tw-text-center tw-p-3 tw-border-0 tw-rounded-t-2xl tw-bg-cyan-900 tw-mb-4 tw-uppercase"
   >
@@ -24,39 +24,46 @@ templateClass: tmpl-post
     alt="{{ title }}"
   />
   {% endif %}
-</div>
 
-<div class="tw-p-6" id="postStyle">
-  {{ content | safe }}
-</div>
+  <div class="tw-p-6 tw-mx-auto" id="postStyle">
+    {{ content | safe }}
+  </div>
 
-<div class="">
-  <ul
-    class="tw-flex tw-flex-nowrap tw-flex-row tw-relative tw-justify-between tw-mx-auto tw-p-6"
-  >
-    {%- set nextPost = collections.posts | getNextCollectionItem(page) %} {%- if
-    nextPost %}
-    <li class="tw-p-3">
-      <i class="fas fa-long-arrow-alt-left"></i>
-      <p class="tw-text-lg tw-font-semibold tw-text-cyan-900">Next:</p>
-
+  <div class="">
+    <ul
+      class="tw-flex tw-flex-nowrap tw-flex-row tw-relative tw-justify-between tw-mx-auto tw-p-6"
+    >
+      {%- set nextPost = collections.posts | getNextCollectionItem(page) %} {%-
+      if nextPost %}
       <a
         class="tw-text-lg tw-font-medium tw-text-cyan-900"
         href="{{ nextPost.url | url }}"
-        >{{ nextPost.data.title }}</a
       >
-    </li>
-    {% endif %} {%- set previousPost = collections.posts |
-    getPreviousCollectionItem(page) %} {%- if previousPost %}
-    <li class="tw-p-3 tw-text-right">
-      <i class="fas fa-long-arrow-alt-right"></i>
-      <p class="tw-text-lg tw-font-semibold tw-text-cyan-900">Previous:</p>
+        <li
+          class="tw-p-3 tw-text-right tw-m-3 tw-border-gray-600 tw-border-solid tw-border-l-8"
+        >
+          <i class="fas fa-long-arrow-alt-left"></i>
+          <p class="tw-text-lg tw-font-semibold tw-text-cyan-900">Next:</p>
+
+          {{ nextPost.data.title }}
+        </li></a
+      >
+      {% endif %} {%- set previousPost = collections.posts |
+      getPreviousCollectionItem(page) %} {%- if previousPost %}
       <a
         class="tw-text-lg tw-font-medium tw-text-cyan-900"
         href="{{ previousPost.url | url }}"
-        >{{ previousPost.data.title }}</a
       >
-    </li>
-    {% endif %}
-  </ul>
+        <li
+          class="tw-p-3 tw-text-right tw-m-3 tw-border-gray-600 tw-border-solid tw-border-r-8"
+        >
+          <i class="fas fa-long-arrow-alt-right"></i>
+          <p class="tw-text-lg tw-font-semibold tw-text-cyan-900">Previous:</p>
+          {{ previousPost.data.title }}
+          >
+        </li></a
+      >
+      {% endif %}
+    </ul>
+  </div>
 </div>
